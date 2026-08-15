@@ -246,7 +246,7 @@ if __name__ == "__main__":
     )
 
     INDEX = (
-        "vectorstore/fixed_500""
+        "vectorstore/fixed_500"
     )
 
     assistant = AcademicAssistant(
