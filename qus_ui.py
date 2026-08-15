@@ -3,7 +3,8 @@ import time
 from pathlib import Path
 
 import streamlit as st
-
+import pandas as pd
+import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -30,40 +31,19 @@ PROJECT_ROOT = Path(__file__).resolve().parent
 # ============================================================
 
 INDEXES = {
-    # RQ1: Chunk size
-    "Fixed 250 / 25": "vectorstore/fixed_250",
+    "Fixed 250": "vectorstore/fixed_250",
+    "Fixed 500": "vectorstore/fixed_500",
+    "Fixed 750": "vectorstore/fixed_750",
+    "Fixed 1000": "vectorstore/fixed_1000",
 
-    "Fixed 500 / 50 — Baseline":
-        "vectorstore/fixed_500",
+    "Fixed 500 / Overlap 0": "vectorstore/fixed_500_overlap_0",
+    "Fixed 500 / Overlap 25":"vectorstore/fixed_500_overlap_25",
+    "Fixed 500 / Overlap 50": "vectorstore/fixed_500_overlap_50",
+    "Fixed 500 / Overlap 100":"vectorstore/fixed_500_overlap_100",
 
-    "Fixed 750 / 75":
-        "vectorstore/fixed_750",
-
-    "Fixed 1000 / 100":
-        "vectorstore/fixed_1000",
-
-    # RQ2: Overlap
-    "Fixed 500 / 0":
-        "vectorstore/fixed_500_overlap_0",
-
-    "Fixed 500 / 25":
-        "vectorstore/fixed_500_overlap_25",
-
-    "Fixed 500 / 50":
-        "vectorstore/fixed_500_overlap_50",
-
-    "Fixed 500 / 100":
-        "vectorstore/fixed_500_overlap_100",
-
-    # RQ4: Chunking strategy
-    "Sentence-based 500":
-        "vectorstore/sentence_500",
-
-    "Paragraph-based 500":
-        "vectorstore/paragraph_500",
-
-    "Heading-aware 500":
-        "vectorstore/heading_500",
+    "Sentence":"vectorstore/sentence_500",
+    "Paragraph":"vectorstore/paragraph_500",
+    "Heading-aware":"vectorstore/heading_500",
 }
 
 
@@ -179,7 +159,385 @@ with st.sidebar:
         """
     )
 
+# ============================================================
+# RESEARCH EVALUATION
+# ============================================================
 
+st.divider()
+
+st.header("📊 Research Evaluation")
+
+RESULTS_FILE = Path(
+    "results/retrieval_results.csv"
+)
+
+if not RESULTS_FILE.exists():
+
+    st.warning(
+        "retrieval_results.csv not found. "
+        "Run the retrieval benchmark first:"
+    )
+
+    st.code(
+        "python -m src.benchmark"
+    )
+
+else:
+
+    results_df = pd.read_csv(
+        RESULTS_FILE
+    )
+
+    st.subheader(
+        "Retrieval Performance"
+    )
+
+    # --------------------------------------------------------
+    # RECALL @ K
+    # --------------------------------------------------------
+
+    recall_df = (
+        results_df
+        .groupby("k")["evidence_found"]
+        .mean()
+        .reset_index()
+    )
+
+    recall_df["recall"] = (
+        recall_df["evidence_found"]
+    )
+
+    recall_values = {}
+
+    for _, row in recall_df.iterrows():
+
+        recall_values[
+            int(row["k"])
+        ] = row["recall"]
+
+    col1, col2, col3 = st.columns(3)
+
+    with col1:
+
+        st.metric(
+            "Recall@1",
+            f"{recall_values.get(1, 0) * 100:.2f}%"
+        )
+
+    with col2:
+
+        st.metric(
+            "Recall@3",
+            f"{recall_values.get(3, 0) * 100:.2f}%"
+        )
+
+    with col3:
+
+        st.metric(
+            "Recall@5",
+            f"{recall_values.get(5, 0) * 100:.2f}%"
+        )
+
+    # --------------------------------------------------------
+    # AVERAGE RETRIEVAL LATENCY
+    # --------------------------------------------------------
+
+    avg_latency = (
+        results_df[
+            "retrieval_latency_ms"
+        ].mean()
+    )
+
+    st.metric(
+        "Average Retrieval Latency",
+        f"{avg_latency:.2f} ms"
+    )
+
+    # --------------------------------------------------------
+    # PER-STRATEGY RECALL
+    # --------------------------------------------------------
+
+    strategy_recall = (
+        results_df
+        .groupby(
+            ["index_name", "k"]
+        )["evidence_found"]
+        .mean()
+        .reset_index()
+    )
+
+    recall_pivot = (
+        strategy_recall
+        .pivot(
+            index="index_name",
+            columns="k",
+            values="evidence_found"
+        )
+        .reset_index()
+    )
+
+    recall_pivot.columns.name = None
+
+    rename_map = {
+        1: "Recall@1",
+        3: "Recall@3",
+        5: "Recall@5",
+    }
+
+    recall_pivot = recall_pivot.rename(
+        columns=rename_map
+    )
+
+    st.subheader(
+        "Recall by Chunking Strategy"
+    )
+
+    st.dataframe(
+        recall_pivot,
+        use_container_width=True
+    )
+
+    # --------------------------------------------------------
+    # AVERAGE LATENCY BY STRATEGY
+    # --------------------------------------------------------
+
+    latency_df = (
+        results_df
+        .groupby("index_name")
+        ["retrieval_latency_ms"]
+        .mean()
+        .reset_index()
+    )
+
+    latency_df = latency_df.rename(
+        columns={
+            "retrieval_latency_ms":
+                "Average Latency (ms)"
+        }
+    )
+
+    st.subheader(
+        "Average Retrieval Latency"
+    )
+
+    st.dataframe(
+        latency_df,
+        use_container_width=True
+    )
+
+    # --------------------------------------------------------
+    # NUMBER OF CHUNKS
+    # --------------------------------------------------------
+
+    chunk_records = []
+
+    for index_name in results_df[
+        "index_name"
+    ].unique():
+
+        metadata_file = Path(
+            "vectorstore"
+        ) / index_name / "metadata.json"
+
+        if metadata_file.exists():
+
+            import json
+
+            with open(
+                metadata_file,
+                "r",
+                encoding="utf-8"
+            ) as f:
+
+                metadata = json.load(f)
+
+            chunk_records.append({
+
+                "index_name":
+                    index_name,
+
+                "number_of_chunks":
+                    metadata.get(
+                        "num_vectors",
+                        0
+                    ),
+
+                "storage_mb":
+                    metadata.get(
+                        "total_storage_mb",
+                        0
+                    ),
+
+                "ingestion_time_sec":
+                    metadata.get(
+                        "ingestion_time_sec",
+                        0
+                    ),
+            })
+
+    physical_df = pd.DataFrame(
+        chunk_records
+    )
+
+    if not physical_df.empty:
+
+        st.subheader(
+            "Database Physical Design"
+        )
+
+        st.dataframe(
+            physical_df,
+            use_container_width=True
+        )
+
+        # ----------------------------------------------------
+        # MERGE RECALL + CHUNK COUNT
+        # ----------------------------------------------------
+
+        recall_3 = (
+            results_df[
+                results_df["k"] == 3
+            ]
+            .groupby("index_name")
+            ["evidence_found"]
+            .mean()
+            .reset_index()
+        )
+
+        recall_3 = recall_3.rename(
+            columns={
+                "evidence_found":
+                    "Recall@3"
+            }
+        )
+
+        analysis_df = physical_df.merge(
+            recall_3,
+            on="index_name",
+            how="left"
+        )
+
+        # ----------------------------------------------------
+        # CHUNKS VS RECALL@3
+        # ----------------------------------------------------
+
+        st.subheader(
+            "📈 Number of Chunks vs Recall@3"
+        )
+
+        fig, ax = plt.subplots()
+
+        ax.scatter(
+            analysis_df[
+                "number_of_chunks"
+            ],
+            analysis_df[
+                "Recall@3"
+            ]
+        )
+
+        for _, row in analysis_df.iterrows():
+
+            ax.annotate(
+                row["index_name"],
+                (
+                    row["number_of_chunks"],
+                    row["Recall@3"]
+                ),
+                fontsize=8
+            )
+
+        ax.set_xlabel(
+            "Number of Indexed Chunks"
+        )
+
+        ax.set_ylabel(
+            "Recall@3"
+        )
+
+        ax.set_title(
+            "Chunk Count vs Retrieval Accuracy"
+        )
+
+        ax.grid(
+            True,
+            alpha=0.3
+        )
+
+        st.pyplot(fig)
+
+        # ----------------------------------------------------
+        # CHUNKS VS RECALL@1
+        # ----------------------------------------------------
+
+        recall_1 = (
+            results_df[
+                results_df["k"] == 1
+            ]
+            .groupby("index_name")
+            ["evidence_found"]
+            .mean()
+            .reset_index()
+        )
+
+        recall_1 = recall_1.rename(
+            columns={
+                "evidence_found":
+                    "Recall@1"
+            }
+        )
+
+        analysis_df = analysis_df.merge(
+            recall_1,
+            on="index_name",
+            how="left"
+        )
+
+        st.subheader(
+            "📈 Number of Chunks vs Recall@1"
+        )
+
+        fig, ax = plt.subplots()
+
+        ax.scatter(
+            analysis_df[
+                "number_of_chunks"
+            ],
+            analysis_df[
+                "Recall@1"
+            ]
+        )
+
+        for _, row in analysis_df.iterrows():
+
+            ax.annotate(
+                row["index_name"],
+                (
+                    row["number_of_chunks"],
+                    row["Recall@1"]
+                ),
+                fontsize=8
+            )
+
+        ax.set_xlabel(
+            "Number of Indexed Chunks"
+        )
+
+        ax.set_ylabel(
+            "Recall@1"
+        )
+
+        ax.set_title(
+            "Chunk Count vs Recall@1"
+        )
+
+        ax.grid(
+            True,
+            alpha=0.3
+        )
+
+        st.pyplot(fig)
+        
 # ============================================================
 # EMBEDDING MODEL
 # ============================================================
@@ -231,7 +589,7 @@ def load_llm():
         api_key=api_key,
         model=LLM_MODEL,
         temperature=0,
-        max_tokens=500,
+        max_tokens=250,
     )
 
 
