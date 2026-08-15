@@ -1,12 +1,10 @@
-import re
 from pathlib import Path
 from typing import List
 
-from langchain_community.document_loaders import (
-    PyPDFLoader
-)
+import re
 
 from langchain_core.documents import Document
+import fitz  # PyMuPDF
 
 
 class AcademicDocumentLoader:
@@ -15,39 +13,42 @@ class AcademicDocumentLoader:
 
         self.data_dir = Path(data_dir)
 
-    @staticmethod
-    def clean_text(text: str) -> str:
+    # =========================================================
+    # TEXT CLEANING
+    # =========================================================
+
+    def clean_text(self, text: str) -> str:
 
         if not text:
             return ""
 
-        text = text.replace(
-            "\xa0",
-            " "
-        )
+        # Normalize non-breaking spaces
+        text = text.replace("\xa0", " ")
 
-        # Normalize spaces
-        text = re.sub(
-            r"[ \t]+",
-            " ",
-            text
-        )
+        # Remove excessive spaces
+        text = re.sub(r"[ \t]+", " ", text)
 
-        # Normalize line breaks
+        # Normalize excessive blank lines
+        text = re.sub(r"\n{3,}", "\n\n", text)
+
+        # Remove spaces at beginning/end of lines
         text = re.sub(
-            r" *\n *",
+            r"[ \t]+\n",
             "\n",
             text
         )
 
-        # Remove excessive blank lines
         text = re.sub(
-            r"\n{3,}",
-            "\n\n",
+            r"\n[ \t]+",
+            "\n",
             text
         )
 
         return text.strip()
+
+    # =========================================================
+    # LOAD PDFS
+    # =========================================================
 
     def load(self) -> List[Document]:
 
@@ -60,8 +61,7 @@ class AcademicDocumentLoader:
         if not pdf_files:
 
             raise FileNotFoundError(
-                f"No PDF files found inside "
-                f"{self.data_dir}"
+                f"No PDF files found inside {self.data_dir}"
             )
 
         print(
@@ -76,56 +76,74 @@ class AcademicDocumentLoader:
 
             try:
 
-                loader = PyPDFLoader(
-                    str(pdf_path)
+                pdf = fitz.open(
+                    pdf_path
                 )
 
-                pages = loader.load()
+                for page_index in range(
+                    len(pdf)
+                ):
 
-                for page in pages:
+                    page = pdf[
+                        page_index
+                    ]
 
-                    # ----------------------------------------
-                    # CLEAN TEXT
-                    # ----------------------------------------
+                    # -------------------------------------------------
+                    # Extract text
+                    # -------------------------------------------------
 
-                    page.page_content = (
-                        self.clean_text(
-                            page.page_content
-                        )
+                    text = page.get_text(
+                        "text",
+                        sort=True
                     )
 
-                    # ----------------------------------------
-                    # METADATA
-                    # ----------------------------------------
-
-                    page.metadata[
-                        "source"
-                    ] = str(
-                        pdf_path.relative_to(
-                            self.data_dir
-                        )
+                    text = self.clean_text(
+                        text
                     )
 
-                    page.metadata[
-                        "file_name"
-                    ] = pdf_path.name
+                    if not text:
+                        continue
 
-                    original_page = (
-                        page.metadata.get(
-                            "page",
-                            0
-                        )
-                    )
+                    # -------------------------------------------------
+                    # Metadata
+                    # -------------------------------------------------
 
-                    page.metadata[
-                        "page_number"
-                    ] = int(
-                        original_page
-                    ) + 1
+                    metadata = {
+
+                        "source": str(
+                            pdf_path
+                            .relative_to(
+                                self.data_dir
+                            )
+                        ),
+
+                        "source_file":
+                            pdf_path.name,
+
+                        "file_name":
+                            pdf_path.name,
+
+                        # 1-based page number
+                        "page_number":
+                            page_index + 1,
+
+                        # Keep original 0-based page too
+                        "page":
+                            page_index,
+
+                        "total_pages":
+                            len(pdf),
+
+                    }
 
                     documents.append(
-                        page
+                        Document(
+                            page_content=text,
+                            metadata=metadata
+                        )
                     )
+
+                pdf.close()
 
             except Exception as e:
 
