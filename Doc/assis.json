@@ -1,0 +1,2491 @@
+{
+  "program_code": "MS-CSE-EWU",
+  "program_title": "Master of Science in Computer Science and Engineering-EWU",
+  "major_areas": [
+    "Data Science",
+    "Software Engineering",
+    "Networking",
+    "Systems Engineering"
+  ],
+  "major_area_policy": "A student must declare their major area during enrollment into the program. However, a student can change their major area before the start of the second semester with the permission of the Chairperson of the Department.",
+  "admission_requirements": [
+    "Minimum GPA of 2.50 in both SSC and HSC Examinations.",
+    "Candidates must have passed University of London and Cambridge GCE O Level in at least five subjects and A Level in at least two subjects. Only the best five subjects in O Level and best two subjects in A Level will be considered.",
+    "Out of the seven GCE subjects, a candidate must have at least 4 B grades or GPA of 4.00 in four subjects and 3 C grades or GPA of 3.5 in the remaining three subjects, based on A=5, B=4, C=3, D=2 and E=1.",
+    "Candidates must have a 4-year Bachelor degree in Computer Science and Engineering, Computer Science, Computer Engineering, Software Engineering, Information and Communications Engineering, or an equivalent discipline with a minimum CGPA of 2.5 on a 4.0 point scale or equivalent standing from a recognized institution.",
+    "Candidates from any engineering discipline must have completed calculus, statistics, and programming prerequisites.",
+    "Candidates from any physical, mathematical, or biological science discipline must have completed calculus, statistics, and programming prerequisites.",
+    "Candidates must have passed HSC or an equivalent program from the Science group.",
+    "Candidates must pass an admission test administered by the university."
+  ],
+  "study_tracks": [
+    "Thesis Track",
+    "Project Track"
+  ],
+  "study_track_policy": "A student must declare their study track during enrollment into the program. However, a student can change their study track during the progress of the program with the permission of the Chairperson of the Department.",
+  "program_length": {
+    "normal_duration": "3 semesters (one year)",
+    "maximum_duration": "15 semesters (five years)"
+  },
+  "program_cost": {
+    "program_name": "MS in CSE-EWU",
+    "total_credit": "40.0",
+    "fee_per_credit": "6,000/=",
+    "tuition_fees": "240,000/=",
+    "lab_and_activities_fees": "9,060/=",
+    "admission_fee": "20,000/=",
+    "grand_total": "269,060/="
+  },
+  "degree_requirement": {
+    "minimum_credits": "33",
+    "minimum_cgpa": "2.5 on a 4.0 point scale",
+    "thesis_track": [
+      {
+        "course_category": "Compulsory Courses for all Major Areas",
+        "number_of_courses": 3,
+        "credit": 9
+      },
+      {
+        "course_category": "Compulsory Courses from Major Area",
+        "number_of_courses": 2,
+        "credit": 6
+      },
+      {
+        "course_category": "Elective Courses from Major Area",
+        "number_of_courses": 3,
+        "credit": 9
+      },
+      {
+        "course_category": "Master Thesis",
+        "number_of_courses": 1,
+        "credit": 9
+      }
+    ],
+    "thesis_track_total": 33,
+    "project_track": [
+      {
+        "course_category": "Compulsory Courses for all Major Areas",
+        "number_of_courses": 3,
+        "credit": 9
+      },
+      {
+        "course_category": "Compulsory Courses from Major Area",
+        "number_of_courses": 2,
+        "credit": 6
+      },
+      {
+        "course_category": "Elective Courses from Major Area",
+        "number_of_courses": 5,
+        "credit": 15
+      },
+      {
+        "course_category": "Master Project",
+        "number_of_courses": 1,
+        "credit": 3
+      }
+    ],
+    "project_track_total": 33
+  },
+  "course_summary": {
+    "common_courses": {
+      "non_credit_prerequisite": [
+        {
+          "code": "CSE503-EWU",
+          "title": "Data Structures",
+          "credit": "3",
+          "comment": "Pass or Fail"
+        }
+      ],
+      "compulsory_courses": [
+        {
+          "code": "CSE504-EWU",
+          "title": "Algorithms",
+          "credit": "3"
+        },
+        {
+          "code": "CSE505-EWU",
+          "title": "Database Systems",
+          "credit": "3"
+        },
+        {
+          "code": "CSE596-EWU",
+          "title": "IT Project Management and Entrepreneurship",
+          "credit": "3"
+        }
+      ]
+    },
+    "major_areas": {
+      "data_science": {
+        "name": "Data Science",
+        "non_credit_prerequisite": [
+          {
+            "code": "CSE506-EWU",
+            "title": "Artificial Intelligence",
+            "credit": "3",
+            "comment": "Pass or Fail"
+          }
+        ],
+        "compulsory_courses": [
+          {
+            "code": "CSE520-EWU",
+            "title": "Statistics for Data Science",
+            "credit": "3"
+          },
+          {
+            "code": "CSE521-EWU",
+            "title": "Machine Learning",
+            "credit": "3"
+          }
+        ],
+        "elective_courses": [
+          {
+            "code": "CSE522-EWU",
+            "title": "Data Mining",
+            "credit": "3"
+          },
+          {
+            "code": "CSE523-EWU",
+            "title": "Digital Image Processing",
+            "credit": "3"
+          },
+          {
+            "code": "CSE524-EWU",
+            "title": "Computer Vision",
+            "credit": "3"
+          },
+          {
+            "code": "CSE525-EWU",
+            "title": "Pattern Recognition",
+            "credit": "3"
+          },
+          {
+            "code": "CSE526-EWU",
+            "title": "Bioinformatics Algorithms",
+            "credit": "3"
+          },
+          {
+            "code": "CSE527-EWU",
+            "title": "Big Data Analytics",
+            "credit": "3"
+          },
+          {
+            "code": "CSE560-EWU",
+            "title": "Distributed Systems and Algorithms",
+            "credit": "3"
+          }
+        ]
+      },
+      "software_engineering": {
+        "name": "Software Engineering",
+        "non_credit_prerequisite": [
+          {
+            "code": "CSE507-EWU",
+            "title": "Information System Analysis and Design",
+            "credit": "3",
+            "comment": "Pass or Fail"
+          }
+        ],
+        "compulsory_courses": [
+          {
+            "code": "CSE550-EWU",
+            "title": "Software Engineering",
+            "credit": "3"
+          },
+          {
+            "code": "CSE551-EWU",
+            "title": "Software Testing and Quality Assurance",
+            "credit": "3"
+          }
+        ],
+        "elective_courses": [
+          {
+            "code": "CSE552-EWU",
+            "title": "Simulation and Modeling",
+            "credit": "3"
+          },
+          {
+            "code": "CSE553-EWU",
+            "title": "Software Architecture",
+            "credit": "3"
+          },
+          {
+            "code": "CSE554-EWU",
+            "title": "Human Computer Interactions",
+            "credit": "3"
+          },
+          {
+            "code": "CSE555-EWU",
+            "title": "Advanced Database System",
+            "credit": "3"
+          },
+          {
+            "code": "CSE556-EWU",
+            "title": "Web Programming",
+            "credit": "3"
+          },
+          {
+            "code": "CSE560-EWU",
+            "title": "Distributed Systems and Algorithms",
+            "credit": "3"
+          },
+          {
+            "code": "CSE565-EWU",
+            "title": "Mobile Programming",
+            "credit": "3"
+          },
+          {
+            "code": "CSE521-EWU",
+            "title": "Machine Learning",
+            "credit": "3"
+          },
+          {
+            "code": "CSE522-EWU",
+            "title": "Data Mining",
+            "credit": "3"
+          },
+          {
+            "code": "CSE526-EWU",
+            "title": "Bioinformatics Algorithms",
+            "credit": "3"
+          },
+          {
+            "code": "CSE527-EWU",
+            "title": "Big Data Analytics",
+            "credit": "3"
+          }
+        ]
+      },
+      "networking": {
+        "name": "Networking",
+        "non_credit_prerequisite": [
+          {
+            "code": "CSE508-EWU",
+            "title": "Computer Networks",
+            "credit": "3",
+            "comment": "Pass or Fail"
+          }
+        ],
+        "compulsory_courses": [
+          {
+            "code": "CSE560-EWU",
+            "title": "Distributed Systems and Algorithms",
+            "credit": "3"
+          },
+          {
+            "code": "CSE561-EWU",
+            "title": "Advanced Network Services and Management",
+            "credit": "3"
+          }
+        ],
+        "elective_courses": [
+          {
+            "code": "CSE562-EWU",
+            "title": "Wireless Networks",
+            "credit": "3"
+          },
+          {
+            "code": "CSE563-EWU",
+            "title": "Cellular Networks",
+            "credit": "3"
+          },
+          {
+            "code": "CSE564-EWU",
+            "title": "Network Security and Systems",
+            "credit": "3"
+          },
+          {
+            "code": "CSE565-EWU",
+            "title": "Mobile Programming",
+            "credit": "3"
+          },
+          {
+            "code": "CSE521-EWU",
+            "title": "Machine Learning",
+            "credit": "3"
+          },
+          {
+            "code": "CSE522-EWU",
+            "title": "Data Mining",
+            "credit": "3"
+          },
+          {
+            "code": "CSE527-EWU",
+            "title": "Big Data Analytics",
+            "credit": "3"
+          }
+        ]
+      },
+      "systems_engineering": {
+        "name": "Systems Engineering",
+        "non_credit_prerequisite": [
+          {
+            "code": "CSE509-EWU",
+            "title": "Digital Logic Design",
+            "credit": "3",
+            "comment": "Pass or Fail"
+          }
+        ],
+        "compulsory_courses": [
+          {
+            "code": "CSE5570-EWU",
+            "title": "Internet of Things",
+            "credit": "3"
+          },
+          {
+            "code": "CSE571-EWU",
+            "title": "Microprocessors and Microcontrollers",
+            "credit": "3"
+          }
+        ],
+        "elective_courses": [
+          {
+            "code": "CSE572-EWU",
+            "title": "ASIC Design Using FPGA",
+            "credit": "3"
+          },
+          {
+            "code": "CSE573-EWU",
+            "title": "VLSI Design",
+            "credit": "3"
+          },
+          {
+            "code": "CSE574-EWU",
+            "title": "Robotics",
+            "credit": "3"
+          },
+          {
+            "code": "CSE575-EWU",
+            "title": "Embedded Systems",
+            "credit": "3"
+          },
+          {
+            "code": "CSE521-EWU",
+            "title": "Machine Learning",
+            "credit": "3"
+          },
+          {
+            "code": "CSE522-EWU",
+            "title": "Data Mining",
+            "credit": "3"
+          },
+          {
+            "code": "CSE527-EWU",
+            "title": "Big Data Analytics",
+            "credit": "3"
+          },
+          {
+            "code": "CSE560-EWU",
+            "title": "Distributed Systems and Algorithms",
+            "credit": "3"
+          },
+          {
+            "code": "CSE561-EWU",
+            "title": "Advanced Network Services and Management",
+            "credit": "3"
+          }
+        ]
+      }
+    }
+  },
+  "thesis_and_project": [
+    {
+      "code": "CSE597-EWU",
+      "title": "Master Project",
+      "credit": "3",
+      "comment": "Project Track"
+    },
+    {
+      "code": "CSE599-EWU",
+      "title": "Master Thesis",
+      "credit": "9",
+      "comment": "Thesis Track"
+    }
+  ]
+}
+[
+  {
+    "bracu_code": "BRACU-APP-FEE",
+    "title": "Admission Application Fee",
+    "category": "Postgraduate Fees",
+    "amount": "Tk. 1,500/-",
+    "refundable": "Non-Refundable",
+    "payment_methods": "Bkash, Rocket, Nagod, Visa Cards"
+  },
+  {
+    "bracu_code": "BRACU-PG-ADMISSION-FEE-NEW",
+    "title": "Admission Fee",
+    "category": "Fresher Enrollment Fees",
+    "effective_from": "Fall 2023",
+    "amount": "Tk. 27,500",
+    "frequency": "One Time",
+    "refundable": "Non-Refundable"
+  },
+  {
+    "bracu_code": "BRACU-PG-LIBRARY-FEE-NEW",
+    "title": "Library Membership Fee",
+    "category": "Fresher Enrollment Fees",
+    "effective_from": "Fall 2023",
+    "amount": "Tk. 2,500",
+    "frequency": "One Time",
+    "refundable": "Non-Refundable"
+  },
+  {
+    "bracu_code": "BRACU-PG-TUITION-EMBA-MBA-LLM",
+    "title": "Tuition Fee",
+    "category": "Tuition Fee per Credit",
+    "effective_from": "Fall 2023",
+    "programs": "EMBA, MBA, LLM",
+    "amount": "Tk. 7,200 per credit"
+  },
+  {
+    "bracu_code": "BRACU-PG-TUITION-OTHER",
+    "title": "Tuition Fee",
+    "category": "Tuition Fee per Credit",
+    "effective_from": "Fall 2023",
+    "programs": "All Other Programs",
+    "amount": "Tk. 6,600 per credit"
+  },
+  {
+    "bracu_code": "BRACU-PG-SEMESTER-FEE",
+    "title": "Semester Fee",
+    "category": "Semester Fee",
+    "effective_from": "Fall 2023",
+    "programs": "All Programs",
+    "amount": "Tk. 4,000 per semester"
+  },
+  {
+    "bracu_code": "BRACU-PG-LLM-SEMESTER-FEE",
+    "title": "Semester Fee",
+    "category": "Semester Fee",
+    "effective_from": "Fall 2023",
+    "programs": "LLM",
+    "amount": "Tk. 6,000 per semester",
+    "frequency": "Bi-Semester"
+  },
+  {
+    "bracu_code": "BRACU-PG-ADMISSION-FEE-OLD",
+    "title": "Admission Fee",
+    "category": "Fresher Enrollment Fees",
+    "applicable_to": "Students enrolled till Summer 2023",
+    "amount": "Tk. 25,000",
+    "frequency": "One Time",
+    "refundable": "Non-Refundable"
+  },
+  {
+    "bracu_code": "BRACU-PG-TUITION-EMBA-MBM-OLD",
+    "title": "Tuition Fee",
+    "category": "Tuition Fee per Credit",
+    "applicable_to": "Students enrolled till Summer 2023",
+    "programs": "EMBA, MBM",
+    "amount": "Tk. 6,500 per credit"
+  },
+  {
+    "bracu_code": "BRACU-PG-TUITION-OTHER-OLD",
+    "title": "Tuition Fee",
+    "category": "Tuition Fee per Credit",
+    "applicable_to": "Students enrolled till Summer 2023",
+    "programs": "All Other Programs",
+    "amount": "Tk. 6,000 per credit"
+  },
+  {
+    "bracu_code": "BRACU-PG-SEMESTER-FEE-OLD",
+    "title": "Semester Fee",
+    "category": "Semester Fee",
+    "applicable_to": "Students enrolled till Summer 2023",
+    "description": "IT facility, Library, Student Activities",
+    "amount": "Tk. 3,000 per semester"
+  }
+]
+[
+  {
+    "bracu_code": "BRACU-MSC-CSE",
+    "title": "M.Sc. in Computer Science and Engineering",
+    "degree_type": "M.Sc.",
+    "program": "Computer Science and Engineering",
+    "objective": "The objective of the degree is to produce a well-informed and well-balanced graduate who can use Computer Science and Engineering tools to solve real-world problems. At the Masters level, students are trained in research methodology so that they can contribute towards the creation of new knowledge.",
+    "course_credits": "24",
+    "thesis_credits": "12",
+    "total_credits": "36",
+    "qualifying_requirement": "A student must pass with a minimum grade point of 2.65 based on the weighted average in the coursework."
+  },
+  {
+    "bracu_code": "BRACU-MSC-CSE-DS",
+    "title": "M.Sc. in Computer Science and Engineering",
+    "degree_type": "M.Sc.",
+    "program": "Computer Science and Engineering",
+    "specialization": "Data Science",
+    "objective": "The objective of the degree is to produce a well-informed and well-balanced graduate who can use Computer Science and Engineering tools to solve real-world problems. At the Masters level, students are trained in research methodology so that they can contribute towards the creation of new knowledge.",
+    "course_credits": "24",
+    "thesis_credits": "12",
+    "total_credits": "36",
+    "qualifying_requirement": "A student must pass with a minimum grade point of 2.65 based on the weighted average in the coursework."
+  },
+  {
+    "bracu_code": "BRACU-MSC-CSE-CS",
+    "title": "M.Sc. in Computer Science and Engineering",
+    "degree_type": "M.Sc.",
+    "program": "Computer Science and Engineering",
+    "specialization": "Cyber Security",
+    "objective": "The objective of the degree is to produce a well-informed and well-balanced graduate who can use Computer Science and Engineering tools to solve real-world problems. At the Masters level, students are trained in research methodology so that they can contribute towards the creation of new knowledge.",
+    "course_credits": "24",
+    "thesis_credits": "12",
+    "total_credits": "36",
+    "qualifying_requirement": "A student must pass with a minimum grade point of 2.65 based on the weighted average in the coursework."
+  },
+  {
+    "bracu_code": "BRACU-MENGG-CSE",
+    "title": "M.Engg. in Computer Science and Engineering",
+    "degree_type": "M.Engg.",
+    "program": "Computer Science and Engineering",
+    "course_credits": "30",
+    "project_credits": "6",
+    "total_credits": "36",
+    "qualifying_requirement": "A student must pass with a minimum grade point of 2.65 based on the weighted average in the coursework."
+  },
+  {
+    "bracu_code": "BRACU-PREREQUISITE-COMMON",
+    "title": "Common Prerequisite Courses",
+    "applicable_to": "Students coming from Non-CSE/CS/CE/EEE or equivalent engineering backgrounds",
+    "courses": [
+      {
+        "bracu_code": "BRACU-CSE111",
+        "code": "CSE111",
+        "title": "Programming Language II",
+        "credit_hours": "3",
+        "contact_hours": "6 hours per week"
+      },
+      {
+        "bracu_code": "BRACU-CSE220",
+        "code": "CSE220",
+        "title": "Data Structures",
+        "credit_hours": "3",
+        "contact_hours": "6 hours per week"
+      },
+      {
+        "bracu_code": "BRACU-CSE221",
+        "code": "CSE221",
+        "title": "Algorithms",
+        "credit_hours": "3",
+        "contact_hours": "6 hours per week"
+      }
+    ]
+  },
+  {
+    "bracu_code": "BRACU-PREREQUISITE-DATA-SCIENCE",
+    "title": "Data Science Specialization Prerequisite Courses",
+    "applicable_to": "Students pursuing the Data Science Specialization",
+    "courses": [
+      {
+        "bracu_code": "BRACU-STA201",
+        "code": "STA201",
+        "title": "Elements of Statistics and Probability",
+        "credit_hours": "3",
+        "contact_hours": "3 hours per week"
+      },
+      {
+        "bracu_code": "BRACU-CSE422",
+        "code": "CSE422",
+        "title": "Artificial Intelligence",
+        "credit_hours": "3",
+        "contact_hours": "6 hours per week"
+      }
+    ]
+  },
+  {
+    "bracu_code": "BRACU-PREREQUISITE-CYBER-SECURITY",
+    "title": "Cyber Security Specialization Prerequisite Courses",
+    "applicable_to": "Students pursuing the Cyber Security Specialization",
+    "courses": [
+      {
+        "bracu_code": "BRACU-CSE321",
+        "code": "CSE321",
+        "title": "Operating Systems",
+        "credit_hours": "3",
+        "contact_hours": "6 hours per week"
+      },
+      {
+        "bracu_code": "BRACU-CSE421",
+        "code": "CSE421",
+        "title": "Computer Networks",
+        "credit_hours": "3",
+        "contact_hours": "6 hours per week"
+      }
+    ]
+  }
+]
+{
+  "nsu_admission_requirements": {
+    "program_code": "NSU-MS-CSE-ADMISSION",
+    "program": "MS in Computer Science and Engineering",
+    "requirements": [
+      {
+        "nsu_code": "NSU-ADMISSION-01",
+        "requirement": "A four-year bachelor's or equivalent degree in Computer Science, Computer Engineering, Computer Science and Engineering, Information Technology, or any computer-related area from an accredited public or private university in Bangladesh or abroad.",
+        "minimum_gpa": "2.75",
+        "gpa_scale": "4.0"
+      },
+      {
+        "nsu_code": "NSU-ADMISSION-02",
+        "requirement": "A three-year bachelor's or equivalent degree in Computer Science, Computer Engineering, Computer Science and Engineering, Information Technology, or any computer-related area from an accredited public or private university in Bangladesh or abroad may be accepted.",
+        "minimum_gpa": "2.75",
+        "gpa_scale": "4.0",
+        "condition": "At least 15 credits of foundation courses from the undergraduate curriculum must be completed at NSU in order to become a regular student in the MS in Computer Science and Engineering program."
+      },
+      {
+        "nsu_code": "NSU-ADMISSION-03",
+        "requirement": "Minimum grade point average of 2.75.",
+        "gpa_scale": "4.0"
+      },
+      {
+        "nsu_code": "NSU-ADMISSION-04",
+        "requirement": "A score of 1100 in the Quantitative and Verbal parts of the GRE General Test is acceptable to waive the NSU admission test."
+      },
+      {
+        "nsu_code": "NSU-ADMISSION-05",
+        "requirement": "Two letters of recommendation are required.",
+        "additional_condition": "At least one letter must be from a faculty member of the last institution attended."
+      }
+    ]
+  },
+
+  "nsu_programs": {
+    "school_of_business_and_economics": [
+      {
+        "nsu_code": "NSU-51",
+        "program_name": "Master in Development Studies (MDS)",
+        "credits": 39,
+        "code": "51"
+      },
+      {
+        "nsu_code": "NSU-60",
+        "program_name": "Master of Business Administration (MBA)",
+        "credits": 60,
+        "code": "60"
+      },
+      {
+        "nsu_code": "NSU-90",
+        "program_name": "Executive Master of Business Administration (EMBA)",
+        "credits": 50,
+        "code": "90"
+      },
+      {
+        "nsu_code": "NSU-53",
+        "program_name": "MS in Economics",
+        "credits": 39,
+        "code": "53"
+      }
+    ],
+
+    "school_of_engineering_and_physical_sciences": [
+      {
+        "nsu_code": "NSU-58",
+        "program_name": "Master of Science in Applied Mathematics and Computational Sciences (AMCS)",
+        "credits": 40,
+        "code": "58"
+      },
+      {
+        "nsu_code": "NSU-65",
+        "program_name": "Master of Science in Civil Engineering (M.S. in CE)",
+        "credits": 36,
+        "code": "65"
+      },
+      {
+        "nsu_code": "NSU-52",
+        "program_name": "MS in Electrical and Electronic Engineering",
+        "credits": 33,
+        "code": "52"
+      },
+      {
+        "nsu_code": "NSU-50",
+        "program_name": "MS in Computer Science and Engineering",
+        "credits": 33,
+        "code": "50"
+      },
+      {
+        "nsu_code": "NSU-56",
+        "program_name": "MS in Electronic and Telecommunication Engineering",
+        "credits": 33,
+        "code": "56"
+      }
+    ],
+
+    "school_of_health_and_life_sciences": [
+      {
+        "nsu_code": "NSU-76",
+        "program_name": "MS in Environmental Science and Management",
+        "credits": 36,
+        "code": "76"
+      },
+      {
+        "nsu_code": "NSU-81",
+        "program_name": "Executive Master of Public Health (EMPH)",
+        "credits": 51,
+        "code": "81"
+      },
+      {
+        "nsu_code": "NSU-80",
+        "program_name": "Master of Public Health (MPH)",
+        "credits": 51,
+        "code": "80"
+      },
+      {
+        "nsu_code": "NSU-72",
+        "program_name": "MPharm in Pharmacology and Clinical Pharmacy",
+        "credits": 36,
+        "code": "72"
+      },
+      {
+        "nsu_code": "NSU-73",
+        "program_name": "MPharm in Pharmaceutical Technology and Biopharmaceutics",
+        "credits": 36,
+        "code": "73"
+      },
+      {
+        "nsu_code": "NSU-70",
+        "program_name": "MS in Biotechnology",
+        "credits": 36,
+        "code": "70"
+      }
+    ],
+
+    "school_of_humanities_and_social_sciences": [
+      {
+        "nsu_code": "NSU-55",
+        "program_name": "MA in English",
+        "credits": 36,
+        "code": "55"
+      },
+      {
+        "nsu_code": "NSU-85",
+        "program_name": "Master in Public Policy and Governance (MPPG)",
+        "credits": 36,
+        "code": "85"
+      },
+      {
+        "nsu_code": "NSU-54",
+        "program_name": "Master of Laws (LL.M)",
+        "credits": 36,
+        "code": "54"
+      },
+      {
+        "nsu_code": "NSU-57",
+        "program_name": "MA in History and Asian Studies",
+        "credits": 36,
+        "code": "57"
+      },
+      {
+        "nsu_code": "NSU-86",
+        "program_name": "Executive Masters in Policy and Governance (EMPG)",
+        "credits": 36,
+        "code": "86"
+      }
+    ]
+  },
+
+  "nsu_graduate_fee_structure": [
+    {
+      "nsu_code": "NSU-FEE-EMBA",
+      "program": "Executive Master of Business Administration (EMBA)",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "7,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-ECONOMICS",
+      "program": "MS in Economics",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-CSE",
+      "program": "MS in Computer Science and Engineering",
+      "program_code": "50",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-ETE",
+      "program": "MS in Electronic and Telecommunication Engineering",
+      "program_code": "56",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-EEE",
+      "program": "MS in Electrical and Electronic Engineering",
+      "program_code": "52",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-BIOTECH",
+      "program": "MS in Biotechnology",
+      "program_code": "70",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-MPHARM-PTB",
+      "program": "MPharm in Pharmaceutical Technology and Biopharmaceutics",
+      "program_code": "73",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "6,000",
+      "student_activities_fee_per_semester": "4,500",
+      "library_fee_per_semester": "1,500",
+      "computer_lab_fee_per_semester": "3,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-MPHARM-PCP",
+      "program": "MPharm in Pharmacology and Clinical Pharmacy",
+      "program_code": "72",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "6,000",
+      "student_activities_fee_per_semester": "4,500",
+      "library_fee_per_semester": "1,500",
+      "computer_lab_fee_per_semester": "3,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-MPH",
+      "program": "Master of Public Health (MPH)",
+      "program_code": "80",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-EMPH",
+      "program": "Executive Master of Public Health (EMPH)",
+      "program_code": "81",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "6,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-ESM",
+      "program": "MS in Environmental Science and Management",
+      "program_code": "76",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-ENGLISH",
+      "program": "MA in English",
+      "program_code": "55",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-MPPG",
+      "program": "Master in Public Policy and Governance (MPPG)",
+      "program_code": "85",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-LLM",
+      "program": "Master of Laws (LL.M)",
+      "program_code": "54",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "4,500",
+      "library_fee_per_semester": "1,500",
+      "computer_lab_fee_per_semester": "3,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-MBA",
+      "program": "Master of Business Administration (MBA)",
+      "program_code": "60",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "7,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-MDS",
+      "program": "Master in Development Studies (MDS)",
+      "program_code": "51",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-HISTORY",
+      "program": "MA in History and Asian Studies",
+      "program_code": "57",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-EMPG",
+      "program": "Executive Masters in Policy and Governance (EMPG)",
+      "program_code": "86",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-CE",
+      "program": "Master of Science in Civil Engineering (M.S. in CE)",
+      "program_code": "65",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    },
+    {
+      "nsu_code": "NSU-FEE-AMCS",
+      "program": "Master of Science in Applied Mathematics and Computational Sciences (AMCS)",
+      "program_code": "58",
+      "admission_fee": "20,000",
+      "tuition_fee_per_credit": "5,000",
+      "student_activities_fee_per_semester": "3,000",
+      "library_fee_per_semester": "1,000",
+      "computer_lab_fee_per_semester": "2,000"
+    }
+  ]
+}
+{
+  "ewu_program": {
+    "program_code": "EWU-MS-DSA",
+    "program_name": "MS in Data Science and Analytics",
+    "total_credits": 40
+  },
+
+  "ewu_faculty_members": [
+    {
+      "ewu_code": "EWU-FAC-WASIF",
+      "name": "Ahmed Wasif Reza",
+      "qualification": "PhD",
+      "designation": "Professor",
+      "expertise": "AI & Deep Learning",
+      "profile": "https://fse.ewubd.edu/computer-science-engineering/faculty-view/wasif"
+    },
+    {
+      "ewu_code": "EWU-FAC-SRANA",
+      "name": "Sohel Rana",
+      "qualification": "PhD",
+      "designation": "Associate Professor",
+      "expertise": "Multivariate Statistical Analysis",
+      "profile": "https://fse.ewubd.edu/mathematical-physical-science/faculty-view/srana"
+    },
+    {
+      "ewu_code": "EWU-FAC-MOSTOFA",
+      "name": "Mostofa Kamal Rasel",
+      "qualification": "PhD",
+      "designation": "Assistant Professor",
+      "expertise": "Database System",
+      "profile": "https://fse.ewubd.edu/computer-science-engineering/faculty-view/mostofa.kamal"
+    },
+    {
+      "ewu_code": "EWU-FAC-MUNTASIR",
+      "name": "Muntasir Chaudhury",
+      "qualification": "PhD",
+      "designation": "Assistant Professor",
+      "expertise": "Applied Econometrics",
+      "profile": "https://fbe.ewubd.edu/economics-department/faculty-view/muntasir"
+    },
+    {
+      "ewu_code": "EWU-FAC-RIFAT",
+      "name": "M. Rifat A. Rashid",
+      "qualification": "PhD",
+      "designation": "Assistant Professor",
+      "expertise": "Programming for Data Science",
+      "profile": "https://fse.ewubd.edu/computer-science-engineering/faculty-view/rifat.rashid"
+    },
+    {
+      "ewu_code": "EWU-FAC-IMRUL",
+      "name": "M.H.M. Imrul Kabir",
+      "qualification": "MSc",
+      "designation": "Senior Lecturer",
+      "expertise": "Time Series Analysis",
+      "profile": "https://fse.ewubd.edu/mathematical-physical-science/faculty-view/ikabir"
+    },
+    {
+      "ewu_code": "EWU-FAC-FMAR",
+      "name": "F.M. Ariful Rahman",
+      "qualification": "MSc",
+      "designation": "Senior Lecturer",
+      "expertise": "Regression Analysis",
+      "profile": "https://fse.ewubd.edu/mathematical-physical-science/faculty-view/fmar"
+    },
+    {
+      "ewu_code": "EWU-FAC-AKHTER",
+      "name": "Syed Akhter Hossain",
+      "qualification": "PhD",
+      "designation": "Professor, Adjunct",
+      "expertise": "Database Systems",
+      "profile": "https://faculty.daffodilvarsity.edu.bd/profile/cse/akhter.html"
+    },
+    {
+      "ewu_code": "EWU-FAC-ZAKIR",
+      "name": "Zakir Hossain",
+      "qualification": "PhD",
+      "designation": "Professor, Adjunct",
+      "expertise": "Statistical Methods, Probability Theory",
+      "profile": "https://www.du.ac.bd/body/faculty_details/STA/2329"
+    },
+    {
+      "ewu_code": "EWU-FAC-REZAUL",
+      "name": "Rezaul Karim",
+      "qualification": "PhD",
+      "designation": "Associate Professor, Adjunct",
+      "expertise": "Machine Learning & Big Data",
+      "profile": "https://juniv.edu/teachers/rezaul"
+    },
+    {
+      "ewu_code": "EWU-FAC-ANAMUL",
+      "name": "Anamul Haque Sajib",
+      "qualification": "PhD",
+      "designation": "Associate Professor, Adjunct",
+      "expertise": "Regression Analysis, Biostatistics",
+      "profile": "https://www.du.ac.bd/body/faculty_details/STA/2434"
+    }
+  ],
+
+  "ewu_tuition_and_fees": {
+    "ewu_code": "EWU-MS-DSA-FEE",
+    "program": "MS in Data Science and Analytics",
+    "items": [
+      {
+        "ewu_code": "EWU-FEE-ADMISSION",
+        "item": "Admission Fee",
+        "amount_tk": 20000
+      },
+      {
+        "ewu_code": "EWU-FEE-TUITION-CREDIT",
+        "item": "Tuition Fee Per Credit",
+        "amount_tk": 5000
+      },
+      {
+        "ewu_code": "EWU-FEE-TUITION-TOTAL",
+        "item": "Tuition Fee",
+        "amount_tk": 200000
+      },
+      {
+        "ewu_code": "EWU-FEE-LAB-ACTIVITIES",
+        "item": "Lab & Activities Fees",
+        "amount_tk": 12000
+      },
+      {
+        "ewu_code": "EWU-FEE-GRAND-TOTAL",
+        "item": "Grand Total",
+        "amount_tk": 232000
+      }
+    ]
+  },
+
+  "ewu_course_structure": {
+    "program": "MS in Data Science and Analytics",
+    "total_credits": 40,
+
+    "core_courses": {
+      "ewu_code": "EWU-DSA-CORE",
+      "credit": 28,
+      "number_of_courses": 8,
+      "courses": [
+        {
+          "ewu_code": "EWU-DSA5001",
+          "code": "DSA5001",
+          "title": "Statistical & Mathematical Methods",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5002",
+          "code": "DSA5002",
+          "title": "Programming for Data Science",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5003",
+          "code": "DSA5003",
+          "title": "Database Management Systems",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5004",
+          "code": "DSA5004",
+          "title": "Regression Analysis",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5005",
+          "code": "DSA5005",
+          "title": "Multivariate Statistical Analysis",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5006",
+          "code": "DSA5006",
+          "title": "Machine Learning",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5007",
+          "code": "DSA5007",
+          "title": "Big Data & Cloud Computing",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5099",
+          "code": "DSA5099",
+          "title": "Research Project",
+          "credit_hours": 7
+        }
+      ],
+      "total": 28
+    },
+
+    "elective_courses": {
+      "ewu_code": "EWU-DSA-ELECTIVE",
+      "credit": 12,
+      "number_of_courses": 4,
+      "selection_rule": "Students must choose any 4 courses from the following list.",
+      "courses": [
+        {
+          "ewu_code": "EWU-DSA5011",
+          "code": "DSA5011",
+          "title": "AI & Deep Learning",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5021",
+          "code": "DSA5021",
+          "title": "Time Series Analysis & Forecasting",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5041",
+          "code": "DSA5041",
+          "title": "Applied Econometrics",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5043",
+          "code": "DSA5043",
+          "title": "Business Process Analytics",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5045",
+          "code": "DSA5045",
+          "title": "Machine Learning for Finance",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5047",
+          "code": "DSA5047",
+          "title": "Data Analytics for Finance",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5061",
+          "code": "DSA5061",
+          "title": "Environmental Data Analysis and Climate Change",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5063",
+          "code": "DSA5063",
+          "title": "Bioinformatics",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5065",
+          "code": "DSA5065",
+          "title": "Biostatistics & Epidemiology",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5071",
+          "code": "DSA5071",
+          "title": "Generalized Linear Models",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5073",
+          "code": "DSA5073",
+          "title": "Categorical Data Analysis",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5075",
+          "code": "DSA5075",
+          "title": "Design of Experiment",
+          "credit_hours": 3
+        },
+        {
+          "ewu_code": "EWU-DSA5077",
+          "code": "DSA5077",
+          "title": "Actuarial Data Analysis",
+          "credit_hours": 3
+        }
+      ],
+      "total": 12
+    }
+  },
+
+  "ewu_course_flowchart": {
+    "program": "MS in Data Science & Analytics",
+
+    "semester_1": [
+      {
+        "ewu_code": "EWU-DSA5001",
+        "course_code": "DSA5001",
+        "course": "Statistical & Mathematical Methods",
+        "prerequisite": "None"
+      },
+      {
+        "ewu_code": "EWU-DSA5002",
+        "course_code": "DSA5002",
+        "course": "Programming for Data Science",
+        "prerequisite": "None"
+      },
+      {
+        "ewu_code": "EWU-DSA5003",
+        "course_code": "DSA5003",
+        "course": "Database Management Systems",
+        "prerequisite": "None"
+      },
+      {
+        "ewu_code": "EWU-DSA5004",
+        "course_code": "DSA5004",
+        "course": "Regression Analysis",
+        "prerequisite": "None"
+      }
+    ],
+
+    "semester_2": [
+      {
+        "ewu_code": "EWU-DSA5005",
+        "course_code": "DSA5005",
+        "course": "Multivariate Statistical Analysis",
+        "prerequisite": "DSA5001, DSA5002"
+      },
+      {
+        "ewu_code": "EWU-DSA5006",
+        "course_code": "DSA5006",
+        "course": "Machine Learning",
+        "prerequisite": "DSA5001, DSA5002"
+      },
+      {
+        "ewu_code": "EWU-DSA5007",
+        "course_code": "DSA5007",
+        "course": "Big Data & Cloud Computing",
+        "prerequisite": "DSA5001, DSA5003"
+      },
+      {
+        "ewu_code": "EWU-DSA5011",
+        "course_code": "DSA5011",
+        "course": "AI & Deep Learning",
+        "type": "Elective I",
+        "prerequisite": "DSA5002, DSA5004"
+      }
+    ],
+
+    "semester_3": {
+      "selection_rule": "Any TWO courses from the listed elective courses as Elective II and Elective III.",
+      "electives": [
+        {
+          "ewu_code": "EWU-DSA5021",
+          "course_code": "DSA5021",
+          "course": "Time Series Analysis",
+          "prerequisite": "DSA5001, DSA5002"
+        },
+        {
+          "ewu_code": "EWU-DSA5061",
+          "course_code": "DSA5061",
+          "course": "Environmental Data Analysis and Climate Change",
+          "prerequisite": "DSA5001, DSA5002"
+        },
+        {
+          "ewu_code": "EWU-DSA5041",
+          "course_code": "DSA5041",
+          "course": "Applied Econometrics",
+          "prerequisite": "DSA5002, DSA5003"
+        },
+        {
+          "ewu_code": "EWU-DSA5063",
+          "course_code": "DSA5063",
+          "course": "Bioinformatics",
+          "prerequisite": "DSA5002, DSA5003"
+        },
+        {
+          "ewu_code": "EWU-DSA5065",
+          "course_code": "DSA5065",
+          "course": "Biostatistics and Epidemiology",
+          "prerequisite": "DSA5002, DSA5003"
+        }
+      ],
+      "research_project": {
+        "ewu_code": "EWU-DSA5099A",
+        "course_code": "DSA5099A",
+        "title": "Research Project - Part I",
+        "credit_hours": 3,
+        "prerequisite": "DSA5002, DSA5006"
+      }
+    },
+
+    "semester_4": {
+      "selection_rule": "Any ONE course from the listed courses as Elective IV.",
+      "electives": [
+        {
+          "ewu_code": "EWU-DSA5043",
+          "course_code": "DSA5043",
+          "course": "Business Process Analytics",
+          "prerequisite": "DSA5002, DSA5006"
+        },
+        {
+          "ewu_code": "EWU-DSA5045",
+          "course_code": "DSA5045",
+          "course": "Machine Learning for Finance",
+          "prerequisite": "DSA5002, DSA5006"
+        },
+        {
+          "ewu_code": "EWU-DSA5047",
+          "course_code": "DSA5047",
+          "course": "Data Analytics for Finance",
+          "prerequisite": "DSA5002, DSA5006"
+        }
+      ],
+      "research_project": {
+        "ewu_code": "EWU-DSA5099B",
+        "course_code": "DSA5099B",
+        "title": "Research Project - Part II",
+        "credit_hours": 4,
+        "prerequisite": "DSA5099A"
+      }
+    }
+  },
+
+  "ewu_research_project": {
+    "ewu_code": "EWU-DSA5099",
+    "course_code": "DSA5099",
+    "title": "Research Project",
+    "total_credits": 7,
+    "components": [
+      {
+        "ewu_code": "EWU-DSA5099A",
+        "course_code": "DSA5099A",
+        "title": "Research Project - Part I",
+        "credits": 3
+      },
+      {
+        "ewu_code": "EWU-DSA5099B",
+        "course_code": "DSA5099B",
+        "title": "Research Project - Part II",
+        "credits": 4
+      }
+    ],
+    "description": "DSA5099A (3 Credits) and DSA5099B (4 Credits) constitute the Research Project Course DSA5099 (7 credits)."
+  }
+}
+{
+  "ewu_ms_program": {
+    "ewu_code": "EWU-MS-PROGRAM",
+    "program_name": "Master's Program",
+    "admission_requirements": {
+      "ewu_code": "EWU-ADMISSION-REQUIREMENTS",
+      "candidates_must_have": [
+        {
+          "ewu_code": "EWU-ADMISSION-01",
+          "requirement": "A 4-year bachelor's degree in any discipline with calculus, statistics, and programming."
+        },
+        {
+          "ewu_code": "EWU-ADMISSION-02",
+          "requirement": "A minimum CGPA of 2.5 on a 4.0 scale or equivalent."
+        },
+        {
+          "ewu_code": "EWU-ADMISSION-03",
+          "requirement": "A passing score in the admission test administered by the university."
+        }
+      ]
+    },
+
+    "prerequisite_requirement_for_non_cse_candidates": {
+      "ewu_code": "EWU-NON-CSE-PREREQUISITES",
+      "applicable_to": "Applicants from non-CSE backgrounds",
+      "requirements": [
+        {
+          "ewu_code": "EWU-PREREQ-CALCULUS",
+          "subject": "Calculus",
+          "minimum_credits": 3
+        },
+        {
+          "ewu_code": "EWU-PREREQ-STATISTICS",
+          "subject": "Statistics/Probability",
+          "minimum_credits": 3
+        },
+        {
+          "ewu_code": "EWU-PREREQ-PROGRAMMING",
+          "subject": "Programming",
+          "minimum_credits": 3
+        }
+      ],
+      "acceptance_rule": "Only formal undergraduate coursework will be accepted for prerequisite fulfillment."
+    },
+
+    "program_structure": {
+      "ewu_code": "EWU-PROGRAM-STRUCTURE",
+      "duration": {
+        "minimum": "1.5 years",
+        "maximum": "5 years"
+      },
+      "total_credits": 40,
+      "minimum_cgpa_for_graduation": 2.5
+    },
+
+    "thesis_track": {
+      "ewu_code": "EWU-THESIS-TRACK",
+      "coursework_credits": 30,
+      "master_thesis_credits": 10,
+      "total_credits": 40
+    },
+
+    "project_track": {
+      "ewu_code": "EWU-PROJECT-TRACK",
+      "coursework_credits": 36,
+      "master_project_credits": 4,
+      "total_credits": 40
+    },
+
+    "credit_summary": {
+      "ewu_code": "EWU-CREDIT-SUMMARY",
+      "categories": [
+        {
+          "ewu_code": "EWU-CREDIT-GENERAL-EDUCATION",
+          "course_category": "General Education Courses",
+          "thesis_track_credits": 6,
+          "project_track_credits": 6
+        },
+        {
+          "ewu_code": "EWU-CREDIT-COMPULSORY",
+          "course_category": "Compulsory Courses",
+          "thesis_track_credits": 18,
+          "project_track_credits": 18
+        },
+        {
+          "ewu_code": "EWU-CREDIT-ELECTIVE",
+          "course_category": "Elective Courses",
+          "thesis_track_credits": 6,
+          "project_track_credits": 12
+        },
+        {
+          "ewu_code": "EWU-CREDIT-THESIS-PROJECT",
+          "course_category": "Master Thesis / Project",
+          "thesis_track_credits": 10,
+          "project_track_credits": 4
+        }
+      ],
+      "grand_total": {
+        "ewu_code": "EWU-CREDIT-TOTAL",
+        "thesis_track_credits": 40,
+        "project_track_credits": 40
+      }
+    }
+  }
+} 
+{
+  "ewu_code": "EWU-MS-PROGRAM-STRUCTURE",
+  "university": "East West University",
+  "program": "MS Program",
+
+  "admission_requirements": {
+    "ewu_code": "EWU-ADMISSION-REQUIREMENTS",
+    "candidates_must_have": [
+      {
+        "ewu_code": "EWU-ADMISSION-01",
+        "requirement": "A 4-year bachelor's degree in any discipline with calculus, statistics, and programming."
+      },
+      {
+        "ewu_code": "EWU-ADMISSION-02",
+        "requirement": "A minimum CGPA of 2.5 on a 4.0 scale or equivalent."
+      },
+      {
+        "ewu_code": "EWU-ADMISSION-03",
+        "requirement": "A passing score in the admission test administered by the university."
+      }
+    ]
+  },
+
+  "prerequisite_requirement_for_non_cse_candidates": {
+    "ewu_code": "EWU-NON-CSE-PREREQUISITES",
+    "applicable_to": "Applicants from non-CSE backgrounds",
+    "courses": [
+      {
+        "ewu_code": "EWU-PREREQ-01",
+        "subject": "Calculus",
+        "minimum_credits": 3
+      },
+      {
+        "ewu_code": "EWU-PREREQ-02",
+        "subject": "Statistics/Probability",
+        "minimum_credits": 3
+      },
+      {
+        "ewu_code": "EWU-PREREQ-03",
+        "subject": "Programming",
+        "minimum_credits": 3
+      }
+    ],
+    "fulfillment_rule": "Only formal undergraduate coursework will be accepted for prerequisite fulfillment."
+  },
+
+  "program_structure": {
+    "ewu_code": "EWU-PROGRAM-STRUCTURE",
+    "duration": {
+      "minimum": "1.5 years",
+      "maximum": "5 years"
+    },
+    "total_credits": 40,
+    "minimum_cgpa_for_graduation": 2.5
+  },
+
+  "thesis_track": {
+    "ewu_code": "EWU-THESIS-TRACK",
+    "coursework_credits": 30,
+    "master_thesis_credits": 10,
+    "total_credits": 40
+  },
+
+  "project_track": {
+    "ewu_code": "EWU-PROJECT-TRACK",
+    "coursework_credits": 36,
+    "master_project_credits": 4,
+    "total_credits": 40
+  },
+
+  "credit_summary": {
+    "ewu_code": "EWU-CREDIT-SUMMARY",
+    "course_categories": [
+      {
+        "ewu_code": "EWU-CREDIT-GENERAL-EDUCATION",
+        "course_category": "General Education Courses",
+        "thesis_track": 6,
+        "project_track": 6
+      },
+      {
+        "ewu_code": "EWU-CREDIT-COMPULSORY",
+        "course_category": "Compulsory Courses",
+        "thesis_track": 18,
+        "project_track": 18
+      },
+      {
+        "ewu_code": "EWU-CREDIT-ELECTIVE",
+        "course_category": "Elective Courses",
+        "thesis_track": 6,
+        "project_track": 12
+      },
+      {
+        "ewu_code": "EWU-CREDIT-THESIS-PROJECT",
+        "course_category": "Master Thesis / Project",
+        "thesis_track": 10,
+        "project_track": 4
+      }
+    ],
+    "grand_total": {
+      "ewu_code": "EWU-CREDIT-GRAND-TOTAL",
+      "thesis_track": 40,
+      "project_track": 40
+    }
+  }
+}
+{
+  "ewu_program": {
+    "ewu_code": "EWU-MBA",
+    "program_name": "Master of Business Administration (MBA)",
+    "total_credits": 60,
+
+    "program_structure": {
+      "ewu_code": "EWU-MBA-STRUCTURE",
+      "sections": [
+        {
+          "ewu_code": "EWU-MBA-FOUNDATION",
+          "section": "A",
+          "category": "Foundation Courses",
+          "number_of_courses": 10,
+          "credits": 30
+        },
+        {
+          "ewu_code": "EWU-MBA-CORE",
+          "section": "B",
+          "category": "Core Courses",
+          "number_of_courses": 5,
+          "credits": 15
+        },
+        {
+          "ewu_code": "EWU-MBA-MAJOR",
+          "section": "C",
+          "category": "Major / Concentration Courses",
+          "number_of_courses": 4,
+          "credits": 12
+        },
+        {
+          "ewu_code": "EWU-MBA-CAPSTONE",
+          "section": "D",
+          "category": "Capstone Course",
+          "number_of_courses": 1,
+          "credits": 3
+        }
+      ]
+    },
+
+    "foundation_courses": {
+      "ewu_code": "EWU-MBA-FOUNDATION-COURSES",
+      "credits": 30,
+      "number_of_courses": 10,
+      "description": "This section contains ten courses totaling 30 credits. These courses provide foundational knowledge of business management in a variety of areas.",
+      "waiver_policy": "A course waiver is available only for foundation area courses. Under the conditions provided by EWU authority, a maximum of five courses or 15 credits may be waived.",
+      "courses": [
+        {
+          "ewu_code": "EWU-MBA-9501",
+          "course_code": "MBA-9501",
+          "title": "Financial Accounting",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9502",
+          "course_code": "MBA-9502",
+          "title": "Business Mathematics",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9503",
+          "course_code": "MBA-9503",
+          "title": "Organization & Management",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9504",
+          "course_code": "MBA-9504",
+          "title": "Business Statistics",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9506",
+          "course_code": "MBA-9506",
+          "title": "Business Communication",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9508",
+          "course_code": "MBA-9508",
+          "title": "Management Accounting",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9511",
+          "course_code": "MBA-9511",
+          "title": "Business Research",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9512",
+          "course_code": "MBA-9512",
+          "title": "Managerial Economics",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9513",
+          "course_code": "MBA-9513",
+          "title": "Entrepreneurship",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MBA-9514",
+          "course_code": "MBA-9514",
+          "title": "Legal Environment of Business",
+          "credits": 3
+        }
+      ]
+    },
+
+    "core_courses": {
+      "ewu_code": "EWU-MBA-CORE-COURSES",
+      "credits": 15,
+      "number_of_courses": 5,
+      "description": "This section contains five functional-area courses totaling 15 credit hours. These courses help students apply functional-area learning in practical scenarios.",
+      "courses": [
+        {
+          "ewu_code": "EWU-FIN9501",
+          "course_code": "FIN9501",
+          "title": "Financial Management",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-HRM9501",
+          "course_code": "HRM9501",
+          "title": "Human Resource Management",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MIS9501",
+          "course_code": "MIS9501",
+          "title": "Management Information System",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-MKT9501",
+          "course_code": "MKT9501",
+          "title": "Marketing Management",
+          "credits": 3
+        },
+        {
+          "ewu_code": "EWU-OPM9501",
+          "course_code": "OPM9501",
+          "title": "Operations Management",
+          "credits": 3
+        }
+      ]
+    },
+
+    "concentration_courses": {
+      "ewu_code": "EWU-MBA-CONCENTRATION",
+      "credits": 12,
+      "number_of_courses": 4,
+      "selection_rule": "Students must complete any four courses from a concentration area. Students are required to complete a minimum of three courses from one concentration as their major area and the fourth course may be selected from any concentration.",
+      "concentration_areas": [
+        "Accounting",
+        "Bank Management",
+        "Finance",
+        "Human Resources Management",
+        "Information Technology",
+        "Management",
+        "Marketing",
+        "Operations",
+        "Risk Management and Insurance",
+        "Textile and Garments Merchandising",
+        "Entrepreneurship",
+        "Supply Chain and Management"
+      ],
+
+      "accounting": {
+        "ewu_code": "EWU-MBA-ACCOUNTING",
+        "courses": [
+          {
+            "ewu_code": "EWU-ACT9521",
+            "course_code": "ACT9521",
+            "title": "Accounting Information Systems",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ACT9522",
+            "course_code": "ACT9522",
+            "title": "Advanced Financial Accounting",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ACT9523",
+            "course_code": "ACT9523",
+            "title": "Corporate Tax Planning",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ACT9524",
+            "course_code": "ACT9524",
+            "title": "Corporate Financial Reporting",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ACT9525",
+            "course_code": "ACT9525",
+            "title": "Audit and Assurance",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ACT9526",
+            "course_code": "ACT9526",
+            "title": "Strategic Cost and Management Accounting",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ACT9527",
+            "course_code": "ACT9527",
+            "title": "Accounting for Management Control",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ACT9528",
+            "course_code": "ACT9528",
+            "title": "Forensic Accounting",
+            "credits": 3
+          }
+        ]
+      },
+
+      "bank_management": {
+        "ewu_code": "EWU-MBA-BANK-MANAGEMENT",
+        "courses": [
+          {
+            "ewu_code": "EWU-BMG9521",
+            "course_code": "BMG9521",
+            "title": "Banking Theory and Practice",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-BMG9522",
+            "course_code": "BMG9522",
+            "title": "Management of Commercial Banks",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-BMG9523",
+            "course_code": "BMG9523",
+            "title": "Credit Management in Banks",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-BMG9524",
+            "course_code": "BMG9524",
+            "title": "Central Banking",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-BMG9525",
+            "course_code": "BMG9525",
+            "title": "International Finance and Banking",
+            "credits": 3
+          }
+        ]
+      },
+
+      "finance": {
+        "ewu_code": "EWU-MBA-FINANCE",
+        "courses": [
+          {
+            "ewu_code": "EWU-FIN9521",
+            "course_code": "FIN9521",
+            "title": "Advanced Financial Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-FIN9522",
+            "course_code": "FIN9522",
+            "title": "Corporate Finance",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-FIN9523",
+            "course_code": "FIN9523",
+            "title": "Financial Institutions and Markets",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-FIN9524",
+            "course_code": "FIN9524",
+            "title": "International Financial Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-FIN9525",
+            "course_code": "FIN9525",
+            "title": "Investment Banking",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-FIN9526",
+            "course_code": "FIN9526",
+            "title": "Financial Derivatives",
+            "credits": 3
+          }
+        ]
+      },
+
+      "human_resources_management": {
+        "ewu_code": "EWU-MBA-HRM",
+        "courses": [
+          {
+            "ewu_code": "EWU-HRM9521",
+            "course_code": "HRM9521",
+            "title": "Human Resource Planning",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-HRM9522",
+            "course_code": "HRM9522",
+            "title": "Performance Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-HRM9523",
+            "course_code": "HRM9523",
+            "title": "Training and Development",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-HRM9524",
+            "course_code": "HRM9524",
+            "title": "Industrial Relations",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-HRM9527",
+            "course_code": "HRM9527",
+            "title": "Conflict Management",
+            "credits": 3
+          }
+        ]
+      },
+
+      "information_technology": {
+        "ewu_code": "EWU-MBA-IT",
+        "courses": [
+          {
+            "ewu_code": "EWU-MIS9521",
+            "course_code": "MIS9521",
+            "title": "Structural Programming",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MIS9522",
+            "course_code": "MIS9522",
+            "title": "Electronic Commerce",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MIS9523",
+            "course_code": "MIS9523",
+            "title": "Computer Networking",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MIS9524",
+            "course_code": "MIS9524",
+            "title": "Networking and Operating System",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MIS9525",
+            "course_code": "MIS9525",
+            "title": "Systems Analysis and Design",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MIS9526",
+            "course_code": "MIS9526",
+            "title": "Relational Database Systems",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MIS9527",
+            "course_code": "MIS9527",
+            "title": "Decision Support System",
+            "credits": 3
+          }
+        ]
+      },
+
+      "management": {
+        "ewu_code": "EWU-MBA-MANAGEMENT",
+        "courses": [
+          {
+            "ewu_code": "EWU-MGT9521",
+            "course_code": "MGT9521",
+            "title": "Organization Design",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MGT9522",
+            "course_code": "MGT9522",
+            "title": "Management of Innovation and Change",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MGT9523",
+            "course_code": "MGT9523",
+            "title": "Leadership Theory and Practice",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MGT9524",
+            "course_code": "MGT9524",
+            "title": "Comparative Management",
+            "credits": 3
+          }
+        ]
+      },
+
+      "marketing": {
+        "ewu_code": "EWU-MBA-MARKETING",
+        "courses": [
+          {
+            "ewu_code": "EWU-MKT9521",
+            "course_code": "MKT9521",
+            "title": "Consumer Behavior",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MKT9523",
+            "course_code": "MKT9523",
+            "title": "Brand Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MKT9524",
+            "course_code": "MKT9524",
+            "title": "Services Marketing",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MKT9525",
+            "course_code": "MKT9525",
+            "title": "Integrated Marketing Communication",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MKT9527",
+            "course_code": "MKT9527",
+            "title": "International Marketing",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MKT9529",
+            "course_code": "MKT9529",
+            "title": "Retail Marketing",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-MKT9530",
+            "course_code": "MKT9530",
+            "title": "Digital Marketing",
+            "credits": 3
+          }
+        ]
+      },
+
+      "operations_management": {
+        "ewu_code": "EWU-MBA-OPERATIONS",
+        "courses": [
+          {
+            "ewu_code": "EWU-OPM9521",
+            "course_code": "OPM9521",
+            "title": "Management Science",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-OPM9522",
+            "course_code": "OPM9522",
+            "title": "Supply Chain and Logistics Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-OPM9523",
+            "course_code": "OPM9523",
+            "title": "Total Quality Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-OPM9524",
+            "course_code": "OPM9524",
+            "title": "Project Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-OPM9525",
+            "course_code": "OPM9525",
+            "title": "Management of Technology and Innovation",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-OPM9526",
+            "course_code": "OPM9526",
+            "title": "Inventory Management",
+            "credits": 3
+          }
+        ]
+      },
+
+      "risk_management_and_insurance": {
+        "ewu_code": "EWU-MBA-RISK-INSURANCE",
+        "courses": [
+          {
+            "ewu_code": "EWU-INS9521",
+            "course_code": "INS9521",
+            "title": "Risk Management & Insurance",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-INS9522",
+            "course_code": "INS9522",
+            "title": "Non-Life Insurance",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-INS9523",
+            "course_code": "INS9523",
+            "title": "Reinsurance and Application",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-INS9524",
+            "course_code": "INS9524",
+            "title": "Underwriting Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-INS9525",
+            "course_code": "INS9525",
+            "title": "Claims Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-INS9526",
+            "course_code": "INS9526",
+            "title": "Life Assurance",
+            "credits": 3
+          }
+        ]
+      },
+
+      "textile_and_garments_merchandising": {
+        "ewu_code": "EWU-MBA-TEXTILE-GARMENTS",
+        "courses": [
+          {
+            "ewu_code": "EWU-TGM9521",
+            "course_code": "TGM9521",
+            "title": "Global RMG Business",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-TGM9522",
+            "course_code": "TGM9522",
+            "title": "Apparel Merchandising",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-TGM9523",
+            "course_code": "TGM9523",
+            "title": "Pattern Process and CAD/CAM",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-TGM9524",
+            "course_code": "TGM9524",
+            "title": "Quality Control and Compliance",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-TGM9525",
+            "course_code": "TGM9525",
+            "title": "Sourcing and Negotiation Techniques",
+            "credits": 3
+          }
+        ]
+      },
+
+      "entrepreneurship": {
+        "ewu_code": "EWU-MBA-ENTREPRENEURSHIP",
+        "courses": [
+          {
+            "ewu_code": "EWU-ENT9521",
+            "course_code": "ENT9521",
+            "title": "New Venture Planning",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ENT9522",
+            "course_code": "ENT9522",
+            "title": "New Venture Formation",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ENT9523",
+            "course_code": "ENT9523",
+            "title": "Social Entrepreneurship",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ENT9524",
+            "course_code": "ENT9524",
+            "title": "Small Business Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-ENT9525",
+            "course_code": "ENT9525",
+            "title": "Business Planning",
+            "credits": 3
+          }
+        ]
+      },
+
+      "supply_chain_and_management": {
+        "ewu_code": "EWU-MBA-SUPPLY-CHAIN",
+        "courses": [
+          {
+            "ewu_code": "EWU-SCM9521",
+            "course_code": "SCM9521",
+            "title": "Strategic Supply Chain Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-SCM9522",
+            "course_code": "SCM9522",
+            "title": "Transportation and Logistics Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-SCM9523",
+            "course_code": "SCM9523",
+            "title": "Procurement and Supply Management / Strategic Sourcing & Procurement",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-SCM9524",
+            "course_code": "SCM9524",
+            "title": "Supply Chain Analytics",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-SCM9525",
+            "course_code": "SCM9525",
+            "title": "Warehousing and Distribution Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-SCM9526",
+            "course_code": "SCM9526",
+            "title": "Advanced Project Management",
+            "credits": 3
+          },
+          {
+            "ewu_code": "EWU-SCM9527",
+            "course_code": "SCM9527",
+            "title": "Risk Management in Global Supply Chains",
+            "credits": 3
+          }
+        ]
+      }
+    },
+
+    "capstone_course": {
+      "ewu_code": "EWU-MBA-CAPSTONE-COURSE",
+      "number_of_courses": 1,
+      "credits": 3,
+      "description": "After successful completion of all functional area courses, students integrate the acquired concepts through a process of synthesis accomplished through business strategy.",
+      "course": {
+        "ewu_code": "EWU-MGT9600",
+        "course_code": "MGT9600",
+        "title": "Strategic Management",
+        "credits": 3
+      }
+    }
+  }
+}
+{
+  "ewu_program": {
+    "ewu_code": "EWU-MSSP",
+    "program_name": "MSS in Sociology and Social Policy (MSSP)",
+    "offering_entity": {
+      "ewu_code": "EWU-DEPARTMENT-SOCIOLOGY-SOCIAL-POLICY",
+      "name": "Department of Sociology and Social Policy"
+    },
+
+    "admission_requirements": {
+      "ewu_code": "EWU-MSSP-ADMISSION-REQUIREMENTS",
+      "requirements": [
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-01",
+          "condition": "Students seeking admission to the MSS in Sociology and Social Policy Program must have completed their undergraduate degree in any discipline from UGC-approved universities."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-02",
+          "condition": "Students with a BSS in Sociology, Social Sciences, or equivalent degrees will be given preference for admission."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-03",
+          "condition": "Students with 3-year BA degrees with a CGPA of 3.0 are eligible for admission."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-04",
+          "condition": "Minimum GPA of 2.50 in both SSC and HSC examinations."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-05",
+          "condition": "A minimum CGPA of 2.5 on a 4.0-point scale or equivalent standing in an Honors degree from any recognized institution."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-06",
+          "condition": "Candidates must have passed University of London and Cambridge GCE O Level in at least five subjects and A Level in at least two subjects."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-07",
+          "condition": "Only the best five subjects in O Level and the best two subjects in A Level will be considered."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-08",
+          "condition": "Among the seven subjects, candidates must have at least four Bs or GPA 4.00 in four subjects and three Cs or GPA 3.5 in the remaining three subjects."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-09",
+          "condition": "Applicants with at least one year's experience in a public, private, NGO, or development-sector program/project shall receive priority in admission."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-10",
+          "condition": "Final selection of candidates for admission to the MSSP program will be based on admission assessment scores."
+        },
+        {
+          "ewu_code": "EWU-MSSP-ADMISSION-11",
+          "condition": "There is no age limit for admission."
+        }
+      ]
+    },
+
+    "program_structure": {
+      "ewu_code": "EWU-MSSP-PROGRAM-STRUCTURE",
+      "duration": "1 year",
+      "number_of_semesters": 3,
+      "total_credits": 40,
+      "course_credit": 4,
+      "description": "The MSS in Sociology and Social Policy program is a 1-year program offered by the Department of Sociology. The three semesters combine compulsory/core and elective interdisciplinary courses."
+    },
+
+    "degree_requirement": {
+      "ewu_code": "EWU-MSSP-DEGREE-REQUIREMENT",
+      "requirement": "As per UGC, East West University, and Sociology Department policy."
+    },
+
+    "course_planning": {
+      "ewu_code": "EWU-MSSP-COURSE-PLANNING",
+      "total_credits": 40,
+      "course_credit": 4,
+
+      "compulsory_courses": {
+        "ewu_code": "EWU-MSSP-COMPULSORY",
+        "number_of_courses": 4,
+        "credits": 16
+      },
+
+      "elective_courses": {
+        "ewu_code": "EWU-MSSP-ELECTIVE",
+        "number_of_courses": 4,
+        "credits": 16
+      },
+
+      "capstone_practical_component": {
+        "ewu_code": "EWU-MSSP-CAPSTONE-PRACTICAL",
+        "components": [
+          {
+            "ewu_code": "EWU-MSSP-RESEARCH-PROJECT-THESIS",
+            "component": "Research Project / Thesis",
+            "equivalent_to": "2 elective courses",
+            "credits": 8
+          },
+          {
+            "ewu_code": "EWU-MSSP-INTERNSHIP-PRACTICUM",
+            "component": "Internship & Practicum",
+            "internship_equivalent": "1 elective course",
+            "internship_credits": 4,
+            "additional_requirement": "Students must complete another elective course of 4 credits."
+          }
+        ]
+      }
+    },
+
+    "study_tracks": {
+      "ewu_code": "EWU-MSSP-STUDY-TRACKS",
+
+      "thesis_group": {
+        "ewu_code": "EWU-MSSP-THESIS-GROUP",
+        "courses": 8,
+        "course_credits": 32,
+        "thesis_credits": 8,
+        "total_credits": 40,
+        "calculation": "8 courses × 4 credits + 8-credit thesis = 40 credits"
+      },
+
+      "non_thesis_group": {
+        "ewu_code": "EWU-MSSP-NON-THESIS-GROUP",
+        "courses": 9,
+        "course_credits": 36,
+        "internship_credits": 4,
+        "total_credits": 40,
+        "calculation": "9 courses × 4 credits + 4-credit internship = 40 credits"
+      }
+    },
+
+    "financial_information": {
+      "ewu_code": "EWU-MSSP-FINANCIAL-INFORMATION",
+      "currency": "BDT",
+      "fees": [
+        {
+          "ewu_code": "EWU-MSSP-FEE-ADMISSION",
+          "component": "Admission Fee",
+          "per_credit": null,
+          "total_amount": 20000
+        },
+        {
+          "ewu_code": "EWU-MSSP-FEE-TUITION",
+          "component": "Tuition Fee",
+          "per_credit": 4500,
+          "total_amount": 180000
+        },
+        {
+          "ewu_code": "EWU-MSSP-FEE-LAB",
+          "component": "Lab Fee",
+          "per_semester": 500,
+          "number_of_semesters": 3,
+          "total_amount": 1500
+        },
+        {
+          "ewu_code": "EWU-MSSP-FEE-ACTIVITY",
+          "component": "Activity Fee",
+          "per_semester": 500,
+          "number_of_semesters": 3,
+          "total_amount": 1500
+        },
+        {
+          "ewu_code": "EWU-MSSP-FEE-LIBRARY",
+          "component": "Library Fee",
+          "per_semester": 500,
+          "number_of_semesters": 3,
+          "total_amount": 1500
+        }
+      ],
+      "grand_total": {
+        "ewu_code": "EWU-MSSP-GRAND-TOTAL",
+        "amount": 204500,
+        "currency": "BDT"
+      },
+      "summary": "The total tuition and listed fees are approximately BDT 2,04,500."
+    }
+  }
+}

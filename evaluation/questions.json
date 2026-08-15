@@ -1,0 +1,643 @@
+[
+  {
+    "id": "Q001",
+    "question": "What are the general admission requirements for the MS in CSE program?",
+    "source": "data.pdf",
+    "pages": [3],
+    "reference_answer": "Applicants need a 4-year bachelor degree in a relevant discipline with a minimum CGPA of 2.5 and must pass the university admission test.",
+    "keywords": ["MS in CSE", "admission", "bachelor degree", "CGPA", "admission test"]
+  },
+  {
+    "id": "Q002",
+    "question": "What is the minimum CGPA required for admission to the MS in CSE program?",
+    "source": "data.pdf",
+    "pages": [3],
+    "reference_answer": "The minimum required CGPA is 2.5 on a 4.0 point scale or equivalent.",
+    "keywords": ["MS in CSE", "CGPA", "2.5", "admission"]
+  },
+  {
+    "id": "Q003",
+    "question": "What major areas are available in the MS in CSE program?",
+    "source": "data.pdf",
+    "pages": [3],
+    "reference_answer": "The four major areas are Data Science, Software Engineering, Networking, and Systems Engineering.",
+    "keywords": ["MS in CSE", "major areas", "Data Science", "Software Engineering", "Networking", "Systems Engineering"]
+  },
+  {
+    "id": "Q004",
+    "question": "When must an MS in CSE student declare their major area?",
+    "source": "data.pdf",
+    "pages": [3],
+    "reference_answer": "A student must declare the major area during enrollment into the program.",
+    "keywords": ["MS in CSE", "major", "enrollment", "declaration"]
+  },
+  {
+    "id": "Q005",
+    "question": "Can an MS in CSE student change their major area?",
+    "source": "data.pdf",
+    "pages": [3],
+    "reference_answer": "Yes, the major area can be changed before the second semester with permission from the Chairperson.",
+    "keywords": ["MS in CSE", "major change", "second semester", "Chairperson"]
+  },
+  {
+    "id": "Q006",
+    "question": "What study tracks are available in the MS in CSE program?",
+    "source": "data.pdf",
+    "pages": [4],
+    "reference_answer": "Students can pursue either the Thesis Track or the Project Track.",
+    "keywords": ["MS in CSE", "study track", "Thesis Track", "Project Track"]
+  },
+  {
+    "id": "Q007",
+    "question": "What is the normal length of the MS in CSE program?",
+    "source": "data.pdf",
+    "pages": [4],
+    "reference_answer": "The MS in CSE program normally takes 3 semesters or one year.",
+    "keywords": ["MS in CSE", "duration", "3 semesters", "one year"]
+  },
+  {
+    "id": "Q008",
+    "question": "What is the maximum time allowed to complete the MS in CSE program?",
+    "source": "data.pdf",
+    "pages": [4],
+    "reference_answer": "Students may take up to 15 semesters or five years to complete the degree.",
+    "keywords": ["MS in CSE", "maximum duration", "15 semesters", "five years"]
+  },
+  {
+    "id": "Q009",
+    "question": "What is the grand total cost of the MS in CSE program?",
+    "source": "data.pdf",
+    "pages": [4],
+    "reference_answer": "The grand total cost of the MS in CSE program is Tk. 209,000.",
+    "keywords": ["MS in CSE", "cost", "fees", "209000"]
+  },
+  {
+    "id": "Q010",
+    "question": "How many credits must an MS in CSE candidate complete for the degree?",
+    "source": "data.pdf",
+    "pages": [4],
+    "reference_answer": "An MS in CSE candidate must complete at least 33 credits.",
+    "keywords": ["MS in CSE", "degree requirement", "33 credits"]
+  },
+  {
+    "id": "Q011",
+    "question": "What minimum CGPA is required for graduation from MS in CSE?",
+    "source": "data.pdf",
+    "pages": [4],
+    "reference_answer": "A minimum CGPA of 2.5 on a 4.0 point scale is required for graduation.",
+    "keywords": ["MS in CSE", "graduation", "CGPA", "2.5"]
+  },
+  {
+    "id": "Q012",
+    "question": "How many credits are allocated to the Master Thesis in the MS in CSE Thesis Track?",
+    "source": "data.pdf",
+    "pages": [4],
+    "reference_answer": "The Master Thesis carries 9 credits in the Thesis Track.",
+    "keywords": ["MS in CSE", "Thesis Track", "Master Thesis", "9 credits"]
+  },
+  {
+    "id": "Q013",
+    "question": "How many credits are allocated to the Master Project in the MS in CSE Project Track?",
+    "source": "data.pdf",
+    "pages": [5],
+    "reference_answer": "The Master Project carries 3 credits in the Project Track.",
+    "keywords": ["MS in CSE", "Project Track", "Master Project", "3 credits"]
+  },
+  {
+    "id": "Q014",
+    "question": "What are the compulsory courses for all major areas in MS in CSE?",
+    "source": "data.pdf",
+    "pages": [5],
+    "reference_answer": "The compulsory courses are Data Structures, Algorithms, and Database Systems.",
+    "keywords": ["MS in CSE", "compulsory courses", "Data Structures", "Algorithms", "Database Systems"]
+  },
+  {
+    "id": "Q015",
+    "question": "What is the prerequisite course for the MS in CSE program if it was not completed in the bachelor program?",
+    "source": "data.pdf",
+    "pages": [5],
+    "reference_answer": "CSE503 Data Structures is listed as a non-credit prerequisite if it was not completed during the bachelor program.",
+    "keywords": ["MS in CSE", "prerequisite", "CSE503", "Data Structures"]
+  },
+  {
+    "id": "Q016",
+    "question": "Which compulsory courses are offered in the Data Science major of MS in CSE?",
+    "source": "data.pdf",
+    "pages": [6],
+    "reference_answer": "The compulsory Data Science courses are Statistics for Data Science and Machine Learning.",
+    "keywords": ["Data Science", "CSE520", "CSE521", "Machine Learning", "Statistics"]
+  },
+  {
+    "id": "Q017",
+    "question": "What elective courses are available in the Data Science major?",
+    "source": "data.pdf",
+    "pages": [6],
+    "reference_answer": "Electives include Data Mining, Digital Image Processing, Computer Vision, and Pattern Recognition.",
+    "keywords": ["Data Science", "electives", "Data Mining", "Computer Vision", "Pattern Recognition"]
+  },
+  {
+    "id": "Q018",
+    "question": "Which course covers Big Data Analytics in the MS in CSE Data Science major?",
+    "source": "data.pdf",
+    "pages": [7],
+    "reference_answer": "CSE527 Big Data Analytics is offered as an elective in the Data Science major.",
+    "keywords": ["Big Data Analytics", "CSE527", "Data Science"]
+  },
+  {
+    "id": "Q019",
+    "question": "What are the compulsory courses in the Software Engineering major?",
+    "source": "data.pdf",
+    "pages": [7],
+    "reference_answer": "The compulsory courses are Software Engineering and Software Testing and Quality Assurance.",
+    "keywords": ["Software Engineering", "CSE550", "CSE551", "compulsory"]
+  },
+  {
+    "id": "Q020",
+    "question": "What is the prerequisite for the Software Engineering major?",
+    "source": "data.pdf",
+    "pages": [7],
+    "reference_answer": "CSE507 Information System Analysis and Design is the non-credit prerequisite if not completed in the bachelor program.",
+    "keywords": ["Software Engineering", "CSE507", "prerequisite", "Information System Analysis"]
+  },
+  {
+    "id": "Q021",
+    "question": "Which course is offered as an elective in Software Engineering?",
+    "source": "data.pdf",
+    "pages": [7],
+    "reference_answer": "CSE552 Simulation and Modeling is one of the elective courses in Software Engineering.",
+    "keywords": ["Software Engineering", "CSE552", "Simulation and Modeling", "elective"]
+  },
+  {
+    "id": "Q022",
+    "question": "What are the compulsory courses in the Networking major?",
+    "source": "data.pdf",
+    "pages": [9],
+    "reference_answer": "The compulsory courses are Distributed Systems and Algorithms and Advanced Network Services and Management.",
+    "keywords": ["Networking", "CSE560", "CSE561", "compulsory"]
+  },
+  {
+    "id": "Q023",
+    "question": "What is the prerequisite for the Networking major?",
+    "source": "data.pdf",
+    "pages": [9],
+    "reference_answer": "CSE508 Computer Networks is the non-credit prerequisite if it was not completed in the bachelor program.",
+    "keywords": ["Networking", "CSE508", "Computer Networks", "prerequisite"]
+  },
+  {
+    "id": "Q024",
+    "question": "Which courses are electives in the Networking major?",
+    "source": "data.pdf",
+    "pages": [9],
+    "reference_answer": "Electives include Wireless Networks, Cellular Networks, Network Security and Systems, and Mobile Programming.",
+    "keywords": ["Networking", "electives", "Wireless Networks", "Cellular Networks", "Network Security"]
+  },
+  {
+    "id": "Q025",
+    "question": "What is the prerequisite for the Systems Engineering major?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE509 Digital Logic Design is the non-credit prerequisite if it was not completed in the bachelor program.",
+    "keywords": ["Systems Engineering", "CSE509", "Digital Logic Design", "prerequisite"]
+  },
+  {
+    "id": "Q026",
+    "question": "Which courses are compulsory in the Systems Engineering major?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "The compulsory courses are Internet of Things and Microprocessors and Microcontrollers.",
+    "keywords": ["Systems Engineering", "IoT", "Microprocessors", "compulsory"]
+  },
+  {
+    "id": "Q027",
+    "question": "Which elective courses are available in Systems Engineering?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "Electives include ASIC Design Using FPGA, VLSI Design, Robotics, and Embedded Systems.",
+    "keywords": ["Systems Engineering", "electives", "FPGA", "VLSI", "Robotics", "Embedded Systems"]
+  },
+  {
+    "id": "Q028",
+    "question": "What courses are available for the thesis and project requirements in MS in CSE?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "CSE597 Master Project carries 3 credits and CSE599 Master Thesis carries 9 credits.",
+    "keywords": ["MS in CSE", "CSE597", "CSE599", "Master Project", "Master Thesis"]
+  },
+  {
+    "id": "Q029",
+    "question": "What is the main focus of the M.Sc. in Artificial Intelligence and Machine Learning program?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "The program develops advanced skills in AI, machine learning, data engineering, analytics, NLP, computer vision, and robotics.",
+    "keywords": ["AI", "Machine Learning", "data engineering", "NLP", "computer vision", "robotics"]
+  },
+  {
+    "id": "Q030",
+    "question": "What are some key features of the M.Sc. in Artificial Intelligence and Machine Learning program?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "Key features include strong AI and ML foundations, lab-based learning, frontier technology exposure, and thesis or project opportunities.",
+    "keywords": ["AI", "Machine Learning", "key features", "lab", "thesis", "project"]
+  },
+  {
+    "id": "Q031",
+    "question": "What are the admission requirements for the M.Sc. in Artificial Intelligence and Machine Learning?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "Applicants need a 4-year bachelor degree with calculus, statistics, and programming, a minimum CGPA of 2.5, and a passing admission test score.",
+    "keywords": ["AI", "Machine Learning", "admission", "CGPA", "calculus", "statistics", "programming"]
+  },
+  {
+    "id": "Q032",
+    "question": "What prerequisite courses are required for non-CSE applicants to the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "Non-CSE applicants need undergraduate coursework in calculus, statistics or probability, and programming, each for at least 3 credits.",
+    "keywords": ["AI", "non-CSE", "prerequisite", "calculus", "statistics", "programming"]
+  },
+  {
+    "id": "Q033",
+    "question": "What is the duration of the M.Sc. in Artificial Intelligence and Machine Learning program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The program has a minimum duration of 1.5 years and a maximum duration of 5 years.",
+    "keywords": ["AI", "Machine Learning", "duration", "1.5 years", "5 years"]
+  },
+  {
+    "id": "Q034",
+    "question": "How many total credits are required for the AI and ML master's program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The M.Sc. in Artificial Intelligence and Machine Learning requires 40 total credits.",
+    "keywords": ["AI", "Machine Learning", "total credits", "40"]
+  },
+  {
+    "id": "Q035",
+    "question": "How many credits are required for the AI and ML thesis track?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The Thesis Track consists of 30 coursework credits and a 10-credit Master Thesis.",
+    "keywords": ["AI", "Thesis Track", "30 credits", "10 credits"]
+  },
+  {
+    "id": "Q036",
+    "question": "How many credits are required for the AI and ML project track?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The Project Track consists of 36 coursework credits and a 4-credit Master Project.",
+    "keywords": ["AI", "Project Track", "36 credits", "4 credits"]
+  },
+  {
+    "id": "Q037",
+    "question": "What are the compulsory general education courses in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [13],
+    "reference_answer": "The compulsory GED courses are Entrepreneurship and Project Management and Legal and Ethical Issues in AI and ML.",
+    "keywords": ["AI", "GED", "AIML501", "AIML502", "ethics"]
+  },
+  {
+    "id": "Q038",
+    "question": "Which courses form the core compulsory courses of the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [14],
+    "reference_answer": "Core courses include Python Programming for AI and ML, Multivariate Calculus and Linear Algebra, Statistics, Data Engineering, AI, and Machine Learning.",
+    "keywords": ["AI", "Machine Learning", "core courses", "Python", "Statistics", "Data Engineering"]
+  },
+  {
+    "id": "Q039",
+    "question": "What courses are included in the Advanced Machine Learning specialization?",
+    "source": "data.pdf",
+    "pages": [15],
+    "reference_answer": "The specialization includes Deep Learning, Pattern Recognition, Computational Intelligence, Computer Vision, and Digital Image Processing.",
+    "keywords": ["Advanced Machine Learning", "Deep Learning", "Pattern Recognition", "Computer Vision"]
+  },
+  {
+    "id": "Q040",
+    "question": "Which courses are included in the Intelligent Systems and Robotics specialization?",
+    "source": "data.pdf",
+    "pages": [15, 16],
+    "reference_answer": "It includes Robotics, AI for Industrial Automation, Autonomous Systems, Expert Systems, and Digital Signal Processing.",
+    "keywords": ["Robotics", "Intelligent Systems", "Autonomous Systems", "Expert Systems"]
+  },
+  {
+    "id": "Q041",
+    "question": "What courses are offered under Data and Knowledge Engineering in AI and ML?",
+    "source": "data.pdf",
+    "pages": [16],
+    "reference_answer": "Courses include Cloud Computing, Big Data Analysis and Visualization, Business Intelligence, Data Mining, and Data and Knowledge Engineering.",
+    "keywords": ["Data Engineering", "Cloud Computing", "Big Data", "Business Intelligence", "Data Mining"]
+  },
+  {
+    "id": "Q042",
+    "question": "What is the total cost of the M.Sc. in Artificial Intelligence program?",
+    "source": "data.pdf",
+    "pages": [19],
+    "reference_answer": "The grand total cost of the M.Sc. in Artificial Intelligence program is Tk. 210,000.",
+    "keywords": ["AI", "Machine Learning", "cost", "210000", "fees"]
+  },
+  {
+    "id": "Q043",
+    "question": "What are the admission requirements for the M.Sc. in Cyber Security?",
+    "source": "data.pdf",
+    "pages": [20],
+    "reference_answer": "Applicants need a 4-year bachelor degree with calculus, statistics, and programming, a minimum CGPA of 2.5, and a passing admission test score.",
+    "keywords": ["Cyber Security", "admission", "bachelor", "CGPA", "admission test"]
+  },
+  {
+    "id": "Q044",
+    "question": "What prerequisite courses are required for non-CSE Cyber Security applicants?",
+    "source": "data.pdf",
+    "pages": [20, 21],
+    "reference_answer": "Non-CSE applicants need at least 3 undergraduate credits each in calculus, statistics or probability, and programming.",
+    "keywords": ["Cyber Security", "non-CSE", "calculus", "statistics", "programming"]
+  },
+  {
+    "id": "Q045",
+    "question": "What is the duration of the M.Sc. in Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [21],
+    "reference_answer": "The Cyber Security program has a minimum duration of 1.5 years and a maximum duration of 5 years.",
+    "keywords": ["Cyber Security", "duration", "1.5 years", "5 years"]
+  },
+  {
+    "id": "Q046",
+    "question": "How many credits are required for the M.Sc. in Cyber Security?",
+    "source": "data.pdf",
+    "pages": [21],
+    "reference_answer": "The M.Sc. in Cyber Security requires 40 total credits.",
+    "keywords": ["Cyber Security", "total credits", "40"]
+  },
+  {
+    "id": "Q047",
+    "question": "What are the compulsory courses in the Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [22, 23],
+    "reference_answer": "The compulsory courses include Python Programming for Cyber Security, Network Security, Database Security, Digital Forensics, Ethical Hacking, Blockchain, and Machine Learning for Cyber Security.",
+    "keywords": ["Cyber Security", "compulsory courses", "Python", "Network Security", "Ethical Hacking"]
+  },
+  {
+    "id": "Q048",
+    "question": "Which courses are included in the Cryptography, Blockchain and Distributed Systems Security specialization?",
+    "source": "data.pdf",
+    "pages": [23],
+    "reference_answer": "The specialization includes Cryptography, Blockchain and Cryptocurrency, Decentralized Finance and Blockchain, and Advanced Smart Contracts and DApp Development.",
+    "keywords": ["Cyber Security", "Cryptography", "Blockchain", "DApp", "DeFi"]
+  },
+  {
+    "id": "Q049",
+    "question": "What courses are included in Cloud, Virtualization and Emerging Technologies Security?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "The courses are Cloud Security and Virtualization, Internet of Things Security, and Intelligent Systems for Cyber Security.",
+    "keywords": ["Cyber Security", "Cloud Security", "Virtualization", "IoT Security"]
+  },
+  {
+    "id": "Q050",
+    "question": "What is the grand total cost of the M.Sc. in Cyber Security?",
+    "source": "data.pdf",
+    "pages": [27],
+    "reference_answer": "The grand total cost of the M.Sc. in Cyber Security is Tk. 210,000.",
+    "keywords": ["Cyber Security", "cost", "210000", "fees"]
+  },
+  {
+    "id": "Q051",
+    "question": "What undergraduate CSE program does EWU offer?",
+    "source": "data.pdf",
+    "pages": [28],
+    "reference_answer": "EWU offers a B.Sc. in Computer Science and Engineering.",
+    "keywords": ["CSE", "BSc", "undergraduate", "EWU"]
+  },
+  {
+    "id": "Q052",
+    "question": "How many total credits are required for the BSc in CSE?",
+    "source": "data.pdf",
+    "pages": [35],
+    "reference_answer": "The BSc in CSE requires 140 total credits.",
+    "keywords": ["BSc in CSE", "total credits", "140"]
+  },
+  {
+    "id": "Q053",
+    "question": "How many credits are included in General Education for the BSc in CSE?",
+    "source": "data.pdf",
+    "pages": [35],
+    "reference_answer": "The General Education component of the BSc in CSE contains 18 credits.",
+    "keywords": ["BSc in CSE", "General Education", "18 credits"]
+  },
+  {
+    "id": "Q054",
+    "question": "How many credits are included in Mathematics and Basic Sciences for the BSc in CSE?",
+    "source": "data.pdf",
+    "pages": [35],
+    "reference_answer": "Mathematics and Basic Sciences account for 26 credits.",
+    "keywords": ["BSc in CSE", "Mathematics", "Basic Sciences", "26 credits"]
+  },
+  {
+    "id": "Q055",
+    "question": "How many credits are included in the Core CSE courses?",
+    "source": "data.pdf",
+    "pages": [36],
+    "reference_answer": "The Core CSE courses account for 62 credits.",
+    "keywords": ["BSc in CSE", "Core CSE", "62 credits"]
+  },
+  {
+    "id": "Q056",
+    "question": "Which course introduces programming fundamentals in the BSc in CSE curriculum?",
+    "source": "data.pdf",
+    "pages": [36],
+    "reference_answer": "CSE 110 Programming Fundamentals introduces programming fundamentals.",
+    "keywords": ["BSc in CSE", "CSE110", "Programming Fundamentals"]
+  },
+  {
+    "id": "Q057",
+    "question": "Which course covers Artificial Intelligence in the BSc in CSE curriculum?",
+    "source": "data.pdf",
+    "pages": [36],
+    "reference_answer": "CSE 320 Artificial Intelligence covers Artificial Intelligence in the BSc in CSE curriculum.",
+    "keywords": ["BSc in CSE", "CSE320", "Artificial Intelligence"]
+  },
+  {
+    "id": "Q058",
+    "question": "Which course covers Machine Learning in the BSc in CSE curriculum?",
+    "source": "data.pdf",
+    "pages": [36],
+    "reference_answer": "CSE 350 Machine Learning covers Machine Learning in the BSc in CSE curriculum.",
+    "keywords": ["BSc in CSE", "CSE350", "Machine Learning"]
+  },
+  {
+    "id": "Q059",
+    "question": "What areas are available for CSE electives?",
+    "source": "data.pdf",
+    "pages": [37],
+    "reference_answer": "CSE electives include Advanced AI, Deep Learning, Data Science, Cloud Computing, IoT, and Blockchain.",
+    "keywords": ["CSE electives", "Advanced AI", "Deep Learning", "Data Science", "Cloud", "IoT", "Blockchain"]
+  },
+  {
+    "id": "Q060",
+    "question": "How many credits are allocated to the BSc in CSE project?",
+    "source": "data.pdf",
+    "pages": [37],
+    "reference_answer": "The CSE project component carries 6 credits.",
+    "keywords": ["BSc in CSE", "project", "Capstone", "6 credits"]
+  },
+  {
+    "id": "Q061",
+    "question": "What is the total credit requirement for the BBA program?",
+    "source": "data.pdf",
+    "pages": [30, 32],
+    "reference_answer": "The BBA program requires 123 total credits.",
+    "keywords": ["BBA", "total credits", "123"]
+  },
+  {
+    "id": "Q062",
+    "question": "How many credits are required for the BBA core business courses?",
+    "source": "data.pdf",
+    "pages": [31],
+    "reference_answer": "The BBA core business courses account for 60 credits.",
+    "keywords": ["BBA", "core business", "60 credits"]
+  },
+  {
+    "id": "Q063",
+    "question": "How many credits are required for a BBA major?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "A BBA major consists of 18 credits.",
+    "keywords": ["BBA", "major", "18 credits"]
+  },
+  {
+    "id": "Q064",
+    "question": "How many total credits are required for the BA in English?",
+    "source": "data.pdf",
+    "pages": [32, 35],
+    "reference_answer": "The BA in English requires 130 total credits.",
+    "keywords": ["BA in English", "total credits", "130"]
+  },
+  {
+    "id": "Q065",
+    "question": "How many credits are included in the Core English courses?",
+    "source": "data.pdf",
+    "pages": [34],
+    "reference_answer": "The Core English courses account for 66 credits.",
+    "keywords": ["BA in English", "Core English", "66 credits"]
+  },
+  {
+    "id": "Q066",
+    "question": "How many credits are required for the BSc in Pharmacy?",
+    "source": "data.pdf",
+    "pages": [46],
+    "reference_answer": "The B. Pharm. program requires 158 total credits.",
+    "keywords": ["BPharm", "Pharmacy", "158 credits"]
+  },
+  {
+    "id": "Q067",
+    "question": "What is the total duration of the B. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [50],
+    "reference_answer": "The B. Pharm. program takes four years or eight semesters.",
+    "keywords": ["BPharm", "Pharmacy", "duration", "4 years", "8 semesters"]
+  },
+  {
+    "id": "Q068",
+    "question": "What is the total credit requirement for the BSS in Economics?",
+    "source": "data.pdf",
+    "pages": [52],
+    "reference_answer": "The BSS in Economics requires a minimum of 123 credits.",
+    "keywords": ["BSS Economics", "Economics", "123 credits"]
+  },
+  {
+    "id": "Q069",
+    "question": "How many credits are required for the MSS in Economics?",
+    "source": "data.pdf",
+    "pages": [56],
+    "reference_answer": "The MSS in Economics is a 40-credit graduate program.",
+    "keywords": ["MSS Economics", "Economics", "40 credits"]
+  },
+  {
+    "id": "Q070",
+    "question": "What are the main core courses in the MSS in Economics program?",
+    "source": "data.pdf",
+    "pages": [56],
+    "reference_answer": "Core courses include Advanced Microeconomic Theory, Advanced Macroeconomic Theory, Advanced Econometrics, Public Sector Economics, International Economics, Development Economics, and Research Methodology.",
+    "keywords": ["MSS Economics", "core courses", "Econometrics", "Microeconomics", "Macroeconomics", "Research Methodology"]
+  },
+  {
+    "id": "Q071",
+    "question": "What is the total credit requirement of BRAC University's MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "BRAC University's MSc in CSE program is a 36-credit intensive master's program.",
+    "keywords": ["BRAC University", "MSc in CSE", "36 credits", "program"]
+  },
+  {
+    "id": "Q072",
+    "question": "What is the main objective of BRAC University's MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "The program aims to produce well-balanced graduates who can use computer science and engineering tools to solve real-world problems.",
+    "keywords": ["BRAC University", "MSc in CSE", "objective", "real-world problems"]
+  },
+  {
+    "id": "Q073",
+    "question": "Which advanced fields are highlighted in BRAC University's MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "The program highlights artificial intelligence, cybersecurity, robotics, data mining, cryptography, and the Internet of Things.",
+    "keywords": ["BRAC University", "AI", "cybersecurity", "robotics", "data mining", "cryptography", "IoT"]
+  },
+  {
+    "id": "Q074",
+    "question": "What career opportunities are available to graduates of the BRAC MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Graduates can pursue careers such as software developer, data scientist, network engineer, IT consultant, systems analyst, and researcher.",
+    "keywords": ["BRAC University", "MSc in CSE", "career", "software developer", "data scientist", "researcher"]
+  },
+  {
+    "id": "Q075",
+    "question": "What placement opportunities are mentioned for CSE students?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Placement opportunities include student tutorship, teaching assistantship, and research assistantship.",
+    "keywords": ["placement", "student tutorship", "teaching assistant", "research assistant"]
+  },
+  {
+    "id": "Q076",
+    "question": "What are some universities listed for further study opportunities for CSE graduates?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Further study destinations include George Mason University, Purdue University, University of Toronto, and University of Washington.",
+    "keywords": ["further study", "CSE graduates", "George Mason University", "Purdue University", "University of Toronto"]
+  },
+  {
+    "id": "Q077",
+    "question": "How many credit hours does each course carry in the BRAC MSc in CSE course-based program structure?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Each course in the listed course-based program structure carries 3 credit hours.",
+    "keywords": ["BRAC MSc", "course-based", "3 credit hours", "CSE"]
+  },
+  {
+    "id": "Q078",
+    "question": "What research areas does the CVIS laboratory support?",
+    "source": "data.pdf",
+    "pages": [88],
+    "reference_answer": "CVIS supports research in computer vision, data science, AI, machine learning, medical image processing, 3D vision, and virtual, augmented and mixed reality.",
+    "keywords": ["CVIS", "computer vision", "data science", "AI", "machine learning", "medical image processing"]
+  },
+  {
+    "id": "Q079",
+    "question": "What are the six research focus areas of the NSU CSE graduate program?",
+    "source": "data.pdf",
+    "pages": [89],
+    "reference_answer": "The focus areas include distributed multimedia computing, robotics and intelligent machines, software engineering, networking, algorithms and system complexity, and computer graphics and visualization.",
+    "keywords": ["NSU", "CSE", "graduate program", "research areas", "robotics", "software engineering", "networking"]
+  },
+  {
+    "id": "Q080",
+    "question": "How many qualifying examination areas must an NSU CSE master's student pass?",
+    "source": "data.pdf",
+    "pages": [91],
+    "reference_answer": "An NSU CSE master's student must pass the qualifying examination in four areas within three semesters.",
+    "keywords": ["NSU", "CSE", "qualifying examination", "four areas", "three semesters"]
+  }
+
+]

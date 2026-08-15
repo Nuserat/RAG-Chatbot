@@ -1,0 +1,9 @@
+{
+  "index_name": "heading_500",
+  "num_vectors": 284,
+  "faiss_size_bytes": 436269,
+  "pkl_size_bytes": 160674,
+  "total_storage_bytes": 596943,
+  "total_storage_mb": 0.5693,
+  "ingestion_time_sec": 10.5816
+}

@@ -1,0 +1,9 @@
+{
+  "index_name": "fixed_1000",
+  "num_vectors": 158,
+  "faiss_size_bytes": 242733,
+  "pkl_size_bytes": 147563,
+  "total_storage_bytes": 390296,
+  "total_storage_mb": 0.3722,
+  "ingestion_time_sec": 11.0986
+}
