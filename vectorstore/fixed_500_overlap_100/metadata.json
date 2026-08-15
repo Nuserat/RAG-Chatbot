@@ -1,9 +1,9 @@
 {
   "index_name": "fixed_500_overlap_100",
-  "num_vectors": 316,
-  "faiss_size_bytes": 485421,
-  "pkl_size_bytes": 183765,
-  "total_storage_bytes": 669186,
-  "total_storage_mb": 0.6382,
-  "ingestion_time_sec": 10.5365
+  "num_vectors": 282,
+  "faiss_size_bytes": 433197,
+  "pkl_size_bytes": 152832,
+  "total_storage_bytes": 586029,
+  "total_storage_mb": 0.5589,
+  "ingestion_time_sec": 11.255
 }

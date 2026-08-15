@@ -16,6 +16,10 @@ from src.config import (
 from src.vector_index import (
     FAISSIndexManager
 )
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 
 SYSTEM_PROMPT = """
@@ -142,15 +146,11 @@ def main():
 
     import os
 
-    api_key = os.getenv(
-        "GROQ_API_KEY"
-    )
+    api_key = os.getenv("GROQ_API_KEY")
 
     if not api_key:
-
         raise ValueError(
-            "Set GROQ_API_KEY environment variable."
-        )
+            "Set GROQ_API_KEY environment variable." )
 
     llm = ChatGroq(
         api_key=api_key,

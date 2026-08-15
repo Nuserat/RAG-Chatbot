@@ -181,7 +181,8 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 # ============================================================
 
 LLM_MODEL = "llama-3.3-70b-versatile"
-
+# Backward-compatible alias
+GROQ_MODEL = LLM_MODEL
 LLM_TEMPERATURE = 0.3
 
 LLM_MAX_TOKENS = 800

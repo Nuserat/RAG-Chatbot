@@ -1,9 +1,9 @@
 {
   "index_name": "paragraph_500",
-  "num_vectors": 242,
-  "faiss_size_bytes": 371757,
-  "pkl_size_bytes": 186001,
-  "total_storage_bytes": 557758,
-  "total_storage_mb": 0.5319,
-  "ingestion_time_sec": 11.6689
+  "num_vectors": 282,
+  "faiss_size_bytes": 433197,
+  "pkl_size_bytes": 167163,
+  "total_storage_bytes": 600360,
+  "total_storage_mb": 0.5725,
+  "ingestion_time_sec": 13.4499
 }

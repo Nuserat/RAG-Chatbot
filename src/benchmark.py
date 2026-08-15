@@ -151,10 +151,12 @@ def benchmark_index(
 def main():
 
     print("=" * 70)
-    print(
-        "RETRIEVAL BENCHMARK"
-    )
+    print("RETRIEVAL BENCHMARK")
     print("=" * 70)
+
+    print("\nEXPERIMENTS BEING USED:")
+    for name, config in EXPERIMENTS.items():
+        print(f"  {name}: {config}")
 
     questions = load_questions()
 

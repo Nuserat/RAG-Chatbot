@@ -1,9 +1,9 @@
 {
   "index_name": "fixed_750",
-  "num_vectors": 212,
-  "faiss_size_bytes": 325677,
-  "pkl_size_bytes": 157371,
-  "total_storage_bytes": 483048,
-  "total_storage_mb": 0.4607,
-  "ingestion_time_sec": 11.71
+  "num_vectors": 185,
+  "faiss_size_bytes": 284205,
+  "pkl_size_bytes": 131329,
+  "total_storage_bytes": 415534,
+  "total_storage_mb": 0.3963,
+  "ingestion_time_sec": 11.6009
 }

@@ -1,9 +1,9 @@
 {
   "index_name": "sentence_500",
-  "num_vectors": 261,
-  "faiss_size_bytes": 400941,
-  "pkl_size_bytes": 160399,
-  "total_storage_bytes": 561340,
-  "total_storage_mb": 0.5353,
-  "ingestion_time_sec": 10.3209
+  "num_vectors": 234,
+  "faiss_size_bytes": 359469,
+  "pkl_size_bytes": 137638,
+  "total_storage_bytes": 497107,
+  "total_storage_mb": 0.4741,
+  "ingestion_time_sec": 10.7776
 }
