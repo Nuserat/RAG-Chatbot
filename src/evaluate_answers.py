@@ -141,6 +141,93 @@ evidence_supported:
 
     return response.content
 
+def parse_llm_json(text):
+    """
+    Safely parse JSON returned by the LLM.
+
+    Handles:
+    1. Normal JSON
+    2. ```json ... ``` responses
+    3. JSON embedded in surrounding text
+    """
+
+    if not text:
+        raise ValueError(
+            "LLM returned an empty response."
+        )
+
+    text = text.strip()
+
+    # --------------------------------------------------
+    # Case 1: direct JSON
+    # --------------------------------------------------
+
+    try:
+        return json.loads(text)
+
+    except json.JSONDecodeError:
+        pass
+
+    # --------------------------------------------------
+    # Case 2: Markdown code block
+    # --------------------------------------------------
+
+    if "```" in text:
+
+        cleaned = text
+
+        cleaned = cleaned.replace(
+            "```json",
+            ""
+        )
+
+        cleaned = cleaned.replace(
+            "```JSON",
+            ""
+        )
+
+        cleaned = cleaned.replace(
+            "```",
+            ""
+        )
+
+        cleaned = cleaned.strip()
+
+        try:
+            return json.loads(cleaned)
+
+        except json.JSONDecodeError:
+            pass
+
+    # --------------------------------------------------
+    # Case 3: JSON embedded in text
+    # --------------------------------------------------
+
+    start = text.find("{")
+    end = text.rfind("}")
+
+    if start != -1 and end != -1:
+
+        candidate = text[
+            start:end + 1
+        ]
+
+        try:
+            return json.loads(
+                candidate
+            )
+
+        except json.JSONDecodeError:
+            pass
+
+    # --------------------------------------------------
+    # Failed
+    # --------------------------------------------------
+
+    raise ValueError(
+        "Could not parse LLM response as JSON.\n"
+        f"LLM response:\n{text}"
+    )
 
 def main():
 
@@ -156,7 +243,7 @@ def main():
         api_key=api_key,
         model=GROQ_MODEL,
         temperature=0,
-        max_tokens=500,
+        max_tokens=250,
     )
 
     manager = (
@@ -164,6 +251,8 @@ def main():
     )
 
     questions = load_questions()
+
+    questions = questions[:2]
 
     results = []
 
@@ -213,23 +302,9 @@ def main():
                     )
                 )
 
-                # Remove markdown fences
-                clean = (
-                    evaluation_text
-                    .replace(
-                        "```json",
-                        ""
-                    )
-                    .replace(
-                        "```",
-                        ""
-                    )
-                    .strip()
-                )
 
-                evaluation = json.loads(
-                    clean
-                )
+                evaluation = parse_llm_json( evaluation_text)
+
 
             except Exception as e:
 
@@ -315,6 +390,7 @@ def main():
     print(
         f"\nSaved: {output}"
     )
+    
 
 
 if __name__ == "__main__":
