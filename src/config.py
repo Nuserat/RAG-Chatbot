@@ -12,23 +12,11 @@ from pathlib import Path
 # ============================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-
-# Your PDFs are inside:
-# RAG-Chatbot/Doc/
 DATA_DIR = PROJECT_ROOT / "Doc"
-
-# FAISS indexes
 VECTORSTORE_DIR = PROJECT_ROOT / "vectorstore"
-
-# Backward-compatible alias
 INDEX_DIR = VECTORSTORE_DIR
-
-# Experimental results
 RESULTS_DIR = PROJECT_ROOT / "results"
-
-# Logs
 LOG_DIR = PROJECT_ROOT / "logs"
-
 EVALUATION_DIR = PROJECT_ROOT / "evaluation"
 
 
@@ -59,7 +47,6 @@ TOP_K = 3
 
 # Your existing chatbot configuration
 BASELINE_CHUNK_SIZE = 500
-
 BASELINE_CHUNK_OVERLAP = 50
 
 
@@ -169,6 +156,14 @@ EXPERIMENTS = {
 
 # Values of K used for Recall@K, Precision@K, etc.
 K_VALUES = [1, 3, 5]
+
+# ============================================================
+# ANSWER QUALITY EVALUATION
+# ============================================================
+
+EVALUATION_QUESTION_LIMIT = 5
+
+GROQ_MODEL = "llama-3.3-70b-versatile"
 
 # ============================================================
 # EMBEDDING MODEL
