@@ -5,6 +5,8 @@ langchain-community>=0.1.20
 langchain-groq>=0.1.5
 langchain-huggingface>=0.0.3
 faiss-cpu
+pandas
+matplotlib
 sentence-transformers
 python-dotenv
 pymupdf>=1.24.0
