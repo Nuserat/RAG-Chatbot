@@ -148,8 +148,8 @@ with st.sidebar:
         **RQ1:** Does smaller chunk size
         improve evidence retrieval?
 
-        **RQ2:** Does chunk overlap improve
-        answer quality?
+        **RQ2:** How does chunk overlap affect 
+        retrieval performance and indexing cost?
 
         **RQ3:** What is the trade-off between
         number of chunks and retrieval accuracy?
