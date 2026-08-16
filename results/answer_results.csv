@@ -1,23 +1,23 @@
 index_name,question_id,retrieval_latency_ms,answer,correctness,faithfulness,completeness,evidence_supported
-fixed_250,Q001,17.158169000140333,Information not available in the retrieved documents.,1,1,1,1
-fixed_250,Q002,15.039392999824486,2.5,5,5,5,5
-fixed_500,Q001,14.15824799960319,"Applicants need a 4-year bachelor degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
-fixed_500,Q002,14.710128000388067,2.5 on a 4.0 point scale or equivalent,5,5,5,5
-fixed_750,Q001,13.893526999709138,"Applicants must pass the university admission test and have a minimum CGPA of 2.5, but the specific bachelor degree requirement is not clearly stated in the retrieved context.",4,4,3,4
-fixed_750,Q002,15.119422000225313,2.5,5,5,5,5
-fixed_1000,Q001,14.212688000043272,Applicants need a 4-year bachelor degree in a relevant discipline with a minimum CGPA of 2.5 and must pass the university admission test.,5,5,5,5
-fixed_1000,Q002,14.837925999927393,2.5,5,5,5,5
-fixed_500_overlap_0,Q001,14.486670000223967,"Applicants need a 4-year bachelor’s degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
-fixed_500_overlap_0,Q002,14.342331000079866,2.5,5,5,5,5
-fixed_500_overlap_25,Q001,14.103003999935027,"Applicants need a 4-year bachelor degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
-fixed_500_overlap_25,Q002,14.567370999884588,2.5,5,5,5,5
-fixed_500_overlap_50,Q001,22.92854300003455,"Applicants need a 4-year bachelor degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
-fixed_500_overlap_50,Q002,16.081659000064974,2.5,5,5,5,5
-fixed_500_overlap_100,Q001,14.19004599983964,Information not available in the retrieved documents.,1,1,1,1
-fixed_500_overlap_100,Q002,14.790398000059213,2.5 on a 4.0 point scale or equivalent,5,5,5,5
-sentence_500,Q001,14.041559000361303,Information not available in the retrieved documents.,1,1,1,1
-sentence_500,Q002,14.362598999923648,2.5 on a 4.0 point scale or equivalent,5,5,5,5
-paragraph_500,Q001,15.276238999831548,Information not available in the retrieved documents.,1,1,1,1
-paragraph_500,Q002,14.00907900006132,2.5,5,5,5,5
-heading_500,Q001,13.868225999885908,"Applicants need a 4-year bachelor’s degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
-heading_500,Q002,14.565016999767977,2.5,5,5,5,5
+fixed_250,Q001,395.9153599998899,Information not available in the retrieved documents.,1,1,1,1
+fixed_250,Q002,22.75228500002413,2.5,5,5,5,5
+fixed_500,Q001,14.348231999974814,"Applicants need a 4-year bachelor degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
+fixed_500,Q002,14.390641000318283,2.5,5,5,5,5
+fixed_750,Q001,18.143383999813523,Information not available in the retrieved documents.,1,1,1,1
+fixed_750,Q002,14.583101000425813,2.5,5,5,5,5
+fixed_1000,Q001,23.691013999268762,Applicants need a 4-year bachelor degree in a relevant discipline with a minimum CGPA of 2.5 and must pass the university admission test.,5,5,5,5
+fixed_1000,Q002,15.488600999560731,2.5,5,5,5,5
+fixed_500_overlap_0,Q001,14.51769199957198,"Applicants need a 4-year bachelor’s degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
+fixed_500_overlap_0,Q002,14.593480999792519,2.5,5,5,5,5
+fixed_500_overlap_25,Q001,15.613945999575662,Applicants need a 4-year bachelor degree in a relevant discipline with a minimum CGPA of 2.5 and must pass the university admission test.,5,5,5,5
+fixed_500_overlap_25,Q002,14.485982999758562,2.5,5,5,5,5
+fixed_500_overlap_50,Q001,17.277622000619886,"Applicants need a 4-year bachelor degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
+fixed_500_overlap_50,Q002,14.36410199949023,2.5,5,5,5,5
+fixed_500_overlap_100,Q001,20.116223000513855,Information not available in the retrieved documents.,1,1,1,1
+fixed_500_overlap_100,Q002,16.23093800026254,2.5 on a 4.0 point scale or equivalent,5,5,5,5
+sentence_500,Q001,14.942221000637801,Information not available in the retrieved documents.,1,1,1,1
+sentence_500,Q002,17.72227599940379,2.5 on a 4.0 point scale or equivalent,5,5,5,5
+paragraph_500,Q001,19.392200000766024,Information not available in the retrieved documents.,1,1,1,1
+paragraph_500,Q002,15.414022000186378,2.5,5,5,5,5
+heading_500,Q001,15.278659000614425,"Applicants need a 4-year bachelor’s degree in any discipline with calculus, statistics, and programming, a minimum CGPA of 2.5, and must pass the university admission test.",5,5,5,5
+heading_500,Q002,18.761192000056326,2.5,5,5,5,5
