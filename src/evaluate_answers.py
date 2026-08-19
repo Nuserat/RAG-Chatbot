@@ -243,7 +243,7 @@ def main():
         api_key=api_key,
         model=GROQ_MODEL,
         temperature=0,
-        max_tokens=250,
+        max_tokens=500,
     )
 
     manager = (
@@ -268,13 +268,12 @@ def main():
         )
 
         for question in questions:
-
-            start = time.perf_counter()
-
-            docs = (
-                db.similarity_search(
+            for k in [1, 3, 5]:
+                start = time.perf_counter()
+                docs = (
+                    db.similarity_search(
                     question["question"],
-                    k=3
+                    k=k
                 )
             )
 
@@ -314,10 +313,10 @@ def main():
 
                 evaluation = {
                     "answer": "",
-                    "correctness": 0,
-                    "faithfulness": 0,
-                    "completeness": 0,
-                    "evidence_supported": 0,
+                    "correctness": None,
+                    "faithfulness": None,
+                    "completeness": None,
+                    "evidence_supported": None,
                 }
 
             results.append({
@@ -327,6 +326,9 @@ def main():
 
                 "question_id":
                     question["id"],
+
+                "k":
+                    k,
 
                 "retrieval_latency_ms":
                     retrieval_time * 1000,

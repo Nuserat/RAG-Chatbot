@@ -55,7 +55,7 @@ EMBEDDING_MODEL = (
     "sentence-transformers/all-MiniLM-L6-v2"
 )
 
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 
 
 # ============================================================
@@ -394,9 +394,9 @@ else:
         # MERGE RECALL + CHUNK COUNT
         # ----------------------------------------------------
 
-        recall_3 = (
+        recall_5 = (
             results_df[
-                results_df["k"] == 3
+                results_df["k"] == 5
             ]
             .groupby("index_name")
             ["evidence_found"]
@@ -404,25 +404,25 @@ else:
             .reset_index()
         )
 
-        recall_3 = recall_3.rename(
+        recall_5 = recall_5.rename(
             columns={
                 "evidence_found":
-                    "Recall@3"
+                    "Recall@5"
             }
         )
 
         analysis_df = physical_df.merge(
-            recall_3,
+            recall_5,
             on="index_name",
             how="left"
         )
 
         # ----------------------------------------------------
-        # CHUNKS VS RECALL@3
+        # CHUNKS VS RECALL@5
         # ----------------------------------------------------
 
         st.subheader(
-            "📈 Number of Chunks vs Recall@3"
+            "📈 Number of Chunks vs Recall@5"
         )
 
         fig, ax = plt.subplots()
@@ -432,7 +432,7 @@ else:
                 "number_of_chunks"
             ],
             analysis_df[
-                "Recall@3"
+                "Recall@5"
             ]
         )
 
@@ -442,7 +442,7 @@ else:
                 row["index_name"],
                 (
                     row["number_of_chunks"],
-                    row["Recall@3"]
+                    row["Recall@5"]
                 ),
                 fontsize=8
             )
@@ -452,7 +452,7 @@ else:
         )
 
         ax.set_ylabel(
-            "Recall@3"
+            "Recall@5"
         )
 
         ax.set_title(

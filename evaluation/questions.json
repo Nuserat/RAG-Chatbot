@@ -638,6 +638,1846 @@
     "pages": [91],
     "reference_answer": "An NSU CSE master's student must pass the qualifying examination in four areas within three semesters.",
     "keywords": ["NSU", "CSE", "qualifying examination", "four areas", "three semesters"]
-  }
+  },
+  {
+    "id": "Q081",
+    "question": "How many credits does BRAC University's MSc in CSE program require?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "BRAC University's MSc in CSE program requires 36 credits.",
+    "keywords": ["BRAC University", "MSc in CSE", "36 credits"]
+  },
+  {
+    "id": "Q082",
+    "question": "What does the BRAC MSc in CSE program combine?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "The program combines theory and practice in computer science and engineering.",
+    "keywords": ["BRAC MSc", "theory", "practice", "CSE"]
+  },
+  {
+    "id": "Q083",
+    "question": "What mathematical concepts are emphasized in the BRAC MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "The program emphasizes mathematical concepts related to software and hardware specification, design, and efficient implementation.",
+    "keywords": ["mathematics", "software", "hardware", "implementation"]
+  },
+  {
+    "id": "Q084",
+    "question": "Which application fields are mentioned in the BRAC MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "The application fields mentioned include machine learning, verification, and computer security.",
+    "keywords": ["machine learning", "verification", "computer security"]
+  },
+  {
+    "id": "Q085",
+    "question": "What is the objective of BRAC University's MSc in CSE degree?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "The objective is to produce balanced graduates who can use CSE tools to solve real-world problems and contribute to new knowledge.",
+    "keywords": ["objective", "real-world problems", "research", "new knowledge"]
+  },
+  {
+    "id": "Q086",
+    "question": "What research-related training is provided in the BRAC MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "Students receive training in research methodology so they can contribute to the creation of new knowledge.",
+    "keywords": ["research methodology", "research", "new knowledge"]
+  },
+  {
+    "id": "Q087",
+    "question": "What types of problems should graduates of the BRAC MSc in CSE be able to solve?",
+    "source": "data.pdf",
+    "pages": [84],
+    "reference_answer": "Graduates should be able to use computer science and engineering tools to solve real-world problems.",
+    "keywords": ["graduates", "CSE tools", "real-world problems"]
+  },
+  {
+    "id": "Q088",
+    "question": "What standards were considered when designing the BRAC MSc in CSE curriculum?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Standards from American, Canadian, British, and Indian universities and institutes were considered.",
+    "keywords": ["curriculum", "American", "Canadian", "British", "Indian"]
+  },
+  {
+    "id": "Q089",
+    "question": "What professional networking opportunity is highlighted by the BRAC MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Students can build professional networks with industrialists, researchers, faculty members, and partners.",
+    "keywords": ["professional network", "industrialists", "researchers", "faculty"]
+  },
+  {
+    "id": "Q090",
+    "question": "Which advanced technology areas can students explore in the BRAC MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Students can develop expertise in AI, cybersecurity, robotics, data mining, cryptography, and IoT.",
+    "keywords": ["AI", "cybersecurity", "robotics", "data mining", "cryptography", "IoT"]
+  },
+  {
+    "id": "Q091",
+    "question": "What practical activities are mentioned in the BRAC MSc in CSE program?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Students can participate in hackathons and business tours involving dedicated computer science departments.",
+    "keywords": ["hackathons", "business tours", "practical activities"]
+  },
+  {
+    "id": "Q092",
+    "question": "What career can BRAC MSc in CSE graduates pursue as an academic professional?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Graduates can pursue careers as professors, lecturers, or researchers.",
+    "keywords": ["career", "professor", "lecturer", "researcher"]
+  },
+  {
+    "id": "Q093",
+    "question": "Can BRAC MSc in CSE graduates work as software developers?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Yes, software developer is one of the listed career opportunities.",
+    "keywords": ["software developer", "career", "BRAC MSc"]
+  },
+  {
+    "id": "Q094",
+    "question": "Can BRAC MSc in CSE graduates work as data scientists?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Yes, data scientist is one of the career opportunities listed in the program information.",
+    "keywords": ["data scientist", "career", "BRAC MSc"]
+  },
+  {
+    "id": "Q095",
+    "question": "What cybersecurity-related career opportunity is listed for BRAC MSc in CSE graduates?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Cybersecurity is an area of expertise highlighted in the program, while IT consultant is among the listed careers.",
+    "keywords": ["cybersecurity", "IT consultant", "career"]
+  },
+  {
+    "id": "Q096",
+    "question": "What network-related career is listed for BRAC MSc in CSE graduates?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Network engineer is listed as one of the career opportunities.",
+    "keywords": ["network engineer", "career", "BRAC MSc"]
+  },
+  {
+    "id": "Q097",
+    "question": "What database-related career is listed for BRAC MSc in CSE graduates?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Database administrator is listed as one of the career opportunities.",
+    "keywords": ["database administrator", "career"]
+  },
+  {
+    "id": "Q098",
+    "question": "What systems-related career is listed for BRAC MSc in CSE graduates?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Systems analyst is listed as one of the career opportunities.",
+    "keywords": ["systems analyst", "career"]
+  },
+  {
+    "id": "Q099",
+    "question": "What writing-related career is listed for BRAC MSc in CSE graduates?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Technical writer is listed as a career opportunity.",
+    "keywords": ["technical writer", "career"]
+  },
+  {
+    "id": "Q100",
+    "question": "What gaming-related career is listed for BRAC MSc in CSE graduates?",
+    "source": "data.pdf",
+    "pages": [85],
+    "reference_answer": "Games developer is listed as one of the career opportunities.",
+    "keywords": ["games developer", "career"]
+  },
+  {
+    "id": "Q101",
+    "question": "Which companies are listed as graduate destinations for BRAC CSE graduates?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Listed destinations include Amazon, Apple, Google, Microsoft, Samsung R&D, Grameenphone, and other companies.",
+    "keywords": ["graduate destinations", "Amazon", "Google", "Microsoft", "Samsung"]
+  },
+  {
+    "id": "Q102",
+    "question": "Is Microsoft listed as a graduate destination for BRAC CSE graduates?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Yes, Microsoft is listed among the graduate destinations.",
+    "keywords": ["Microsoft", "graduate destination", "BRAC CSE"]
+  },
+  {
+    "id": "Q103",
+    "question": "Is Google listed as a graduate destination for BRAC CSE graduates?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Yes, Google is listed among the graduate destinations.",
+    "keywords": ["Google", "graduate destination", "BRAC CSE"]
+  },
+  {
+    "id": "Q104",
+    "question": "Is Amazon listed as a graduate destination for BRAC CSE graduates?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Yes, Amazon is listed among the graduate destinations.",
+    "keywords": ["Amazon", "graduate destination", "BRAC CSE"]
+  },
+  {
+    "id": "Q105",
+    "question": "What placement opportunities are available to BRAC CSE students?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Placement opportunities include student tutorship, teaching assistantship, and research assistantship.",
+    "keywords": ["placement", "student tutorship", "teaching assistantship", "research assistantship"]
+  },
+  {
+    "id": "Q106",
+    "question": "What type of assistantship provides teaching experience to BRAC CSE students?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Teaching assistantship provides teaching-related experience to students.",
+    "keywords": ["teaching assistantship", "placement"]
+  },
+  {
+    "id": "Q107",
+    "question": "What type of assistantship provides research experience to BRAC CSE students?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "Research assistantship provides research-related experience to students.",
+    "keywords": ["research assistantship", "research", "placement"]
+  },
+  {
+    "id": "Q108",
+    "question": "Which US university is listed as a further-study destination for BRAC CSE graduates?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "George Mason University is listed as a further-study destination.",
+    "keywords": ["George Mason University", "studying abroad", "further study"]
+  },
+  {
+    "id": "Q109",
+    "question": "Which Canadian universities are listed as further-study destinations for BRAC CSE graduates?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "University of Alberta, University of British Columbia, University of Toronto, and University of Calgary are listed.",
+    "keywords": ["Canada", "University of Alberta", "University of Toronto", "further study"]
+  },
+  {
+    "id": "Q110",
+    "question": "Which Australian universities are listed as further-study destinations?",
+    "source": "data.pdf",
+    "pages": [86],
+    "reference_answer": "The University of Sydney, University of Adelaide, and Monash University are listed.",
+    "keywords": ["Australia", "University of Sydney", "University of Adelaide", "Monash University"]
+  },
+  {
+    "id": "Q111",
+    "question": "How many credit hours does each course carry in the BRAC course-based MSc program?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Each listed course in the course-based program structure carries 3 credit hours.",
+    "keywords": ["course-based", "3 credit hours", "BRAC MSc"]
+  },
+  {
+    "id": "Q112",
+    "question": "What is the course code for Advanced Logic Design in the BRAC MSc program?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Advanced Logic Design is listed as CSE701.",
+    "keywords": ["CSE701", "Advanced Logic Design"]
+  },
+  {
+    "id": "Q113",
+    "question": "What is the course code for Computer Arithmetic?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Computer Arithmetic is listed as CSE702.",
+    "keywords": ["CSE702", "Computer Arithmetic"]
+  },
+  {
+    "id": "Q114",
+    "question": "What is the course code for Advanced Artificial Intelligence?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Advanced Artificial Intelligence is listed as CSE710.",
+    "keywords": ["CSE710", "Advanced Artificial Intelligence"]
+  },
+  {
+    "id": "Q115",
+    "question": "What is the course code for Speech Recognition?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Speech Recognition is listed as CSE714.",
+    "keywords": ["CSE714", "Speech Recognition"]
+  },
+  {
+    "id": "Q116",
+    "question": "What is the course code for Advanced Database Systems?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Advanced Database Systems is listed as CSE716.",
+    "keywords": ["CSE716", "Advanced Database Systems"]
+  },
+  {
+    "id": "Q117",
+    "question": "What is the course code for Computer Graphics and Animation?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "Computer Graphics and Animation is listed as CSE720.",
+    "keywords": ["CSE720", "Computer Graphics", "Animation"]
+  },
+  {
+    "id": "Q118",
+    "question": "How often can the course descriptions of the BRAC MS courses change?",
+    "source": "data.pdf",
+    "pages": [87],
+    "reference_answer": "The course descriptions can change every semester to meet industry standards.",
+    "keywords": ["course descriptions", "every semester", "industry standards"]
+  },
+  {
+    "id": "Q119",
+    "question": "What does CVIS stand for?",
+    "source": "data.pdf",
+    "pages": [87, 88],
+    "reference_answer": "CVIS stands for Computer Vision and Intelligent Systems.",
+    "keywords": ["CVIS", "Computer Vision", "Intelligent Systems"]
+  },
+  {
+    "id": "Q120",
+    "question": "What is the main purpose of the CVIS research laboratory?",
+    "source": "data.pdf",
+    "pages": [88],
+    "reference_answer": "CVIS aims to inspire innovation and implement research projects in computer vision, AI, data science, and related fields.",
+    "keywords": ["CVIS", "research lab", "innovation", "computer vision", "AI"]
+  },
+  {
+    "id": "Q121",
+    "question": "Which medical research area is supported by CVIS?",
+    "source": "data.pdf",
+    "pages": [88],
+    "reference_answer": "CVIS supports medical image processing and analysis.",
+    "keywords": ["CVIS", "medical image processing", "medical image analysis"]
+  },
+  {
+    "id": "Q122",
+    "question": "Does CVIS support research in machine learning?",
+    "source": "data.pdf",
+    "pages": [88],
+    "reference_answer": "Yes, machine learning is one of the research areas supported by CVIS.",
+    "keywords": ["CVIS", "machine learning", "research"]
+  },
+  {
+    "id": "Q123",
+    "question": "What laboratory is dedicated specifically to supporting thesis work?",
+    "source": "data.pdf",
+    "pages": [88],
+    "reference_answer": "The dedicated Thesis Lab is designed to support students' thesis work.",
+    "keywords": ["Thesis Lab", "thesis", "laboratory"]
+  },
+  {
+    "id": "Q124",
+    "question": "What are the operating hours of on-campus student tutors?",
+    "source": "data.pdf",
+    "pages": [88],
+    "reference_answer": "Student tutors are available on campus from 8:00 am to 5:00 pm.",
+    "keywords": ["student tutors", "8:00 am", "5:00 pm", "campus"]
+  },
+  {
+    "id": "Q125",
+    "question": "Until what time is online student support available?",
+    "source": "data.pdf",
+    "pages": [88],
+    "reference_answer": "Online support is available through platforms such as Discord and Google Meet until 1:00 am.",
+    "keywords": ["online support", "Discord", "Google Meet", "1:00 am"]
+  },
+  {
+    "id": "Q126",
+    "question": "What is the main research focus of the NSU CSE graduate program?",
+    "source": "data.pdf",
+    "pages": [89],
+    "reference_answer": "The program focuses on research and technopreneurship while developing new computing knowledge.",
+    "keywords": ["NSU", "CSE", "research", "technopreneurship"]
+  },
+  {
+    "id": "Q127",
+    "question": "What research areas are emphasized by the NSU CSE graduate program?",
+    "source": "data.pdf",
+    "pages": [89],
+    "reference_answer": "Research areas include distributed multimedia computing, robotics, software engineering, networking, algorithms, graphics, architecture, telecommunications, and bioinformatics.",
+    "keywords": ["NSU", "research areas", "robotics", "networking", "bioinformatics"]
+  },
+  {
+    "id": "Q128",
+    "question": "What is the thesis option for the NSU Master's in CSE?",
+    "source": "data.pdf",
+    "pages": [89],
+    "reference_answer": "The thesis option consists of a 6-credit thesis, 24 credits of coursework, and qualifying examinations in 3 areas.",
+    "keywords": ["NSU", "thesis", "6 credits", "24 credits", "qualifying examination"]
+  },
+  {
+    "id": "Q129",
+    "question": "What is the project option for the NSU Master's in CSE?",
+    "source": "data.pdf",
+    "pages": [89],
+    "reference_answer": "The project option consists of a 3-credit project, 27 credits of coursework, and qualifying examinations in 4 areas.",
+    "keywords": ["NSU", "project", "3 credits", "27 credits", "qualifying examination"]
+  },
+  {
+    "id": "Q130",
+    "question": "What is the minimum CGPA required to earn the NSU Master's in CSE degree?",
+    "source": "data.pdf",
+    "pages": [89],
+    "reference_answer": "Students must complete the required credits with a minimum CGPA of 2.75 on a 4-point scale.",
+    "keywords": ["NSU", "Master's in CSE", "CGPA", "2.75", "degree requirement"]
+  },
 
+  {
+    "id": "Q131",
+    "question": "What prerequisite is required for the Systems Engineering major in MS in CSE?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE509 Digital Logic Design is required as a non-credit prerequisite if it was not completed in the bachelor's program.",
+    "keywords": ["Systems Engineering", "CSE509", "Digital Logic Design", "prerequisite"]
+  },
+  {
+    "id": "Q132",
+    "question": "How many credits does CSE570 Internet of Things carry in the Systems Engineering major?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE570 Internet of Things carries 3 credits.",
+    "keywords": ["CSE570", "Internet of Things", "3 credits"]
+  },
+  {
+    "id": "Q133",
+    "question": "How many credits does CSE571 Microprocessors and Microcontrollers carry?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE571 Microprocessors and Microcontrollers carries 3 credits.",
+    "keywords": ["CSE571", "Microprocessors", "Microcontrollers", "3 credits"]
+  },
+  {
+    "id": "Q134",
+    "question": "Which Systems Engineering elective focuses on FPGA technology?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE572 ASIC Design Using FPGA is the Systems Engineering elective focused on FPGA technology.",
+    "keywords": ["CSE572", "FPGA", "ASIC Design", "Systems Engineering"]
+  },
+  {
+    "id": "Q135",
+    "question": "Which Systems Engineering elective covers VLSI Design?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE573 VLSI Design is offered as an elective in Systems Engineering.",
+    "keywords": ["CSE573", "VLSI Design", "Systems Engineering"]
+  },
+  {
+    "id": "Q136",
+    "question": "Which course covers Robotics in the Systems Engineering major?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE574 Robotics is offered as an elective in Systems Engineering.",
+    "keywords": ["CSE574", "Robotics", "Systems Engineering"]
+  },
+  {
+    "id": "Q137",
+    "question": "Which course covers Embedded Systems in the Systems Engineering major?",
+    "source": "data.pdf",
+    "pages": [10],
+    "reference_answer": "CSE575 Embedded Systems is offered as an elective in Systems Engineering.",
+    "keywords": ["CSE575", "Embedded Systems", "Systems Engineering"]
+  },
+  {
+    "id": "Q138",
+    "question": "How many credits does the MS in CSE Master Project carry?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "CSE597 Master Project carries 3 credits.",
+    "keywords": ["CSE597", "Master Project", "3 credits"]
+  },
+  {
+    "id": "Q139",
+    "question": "How many credits does the MS in CSE Master Thesis carry?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "CSE599 Master Thesis carries 9 credits.",
+    "keywords": ["CSE599", "Master Thesis", "9 credits"]
+  },
+  {
+    "id": "Q140",
+    "question": "What is the main academic focus of the M.Sc. in Artificial Intelligence and Machine Learning?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "The program develops advanced knowledge in AI, machine learning, data engineering, analytics, NLP, computer vision, and robotics.",
+    "keywords": ["AI", "Machine Learning", "data engineering", "NLP", "robotics"]
+  },
+  {
+    "id": "Q141",
+    "question": "What type of learning does the AI and ML program provide?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "The program combines theoretical foundations with practical and research-oriented learning.",
+    "keywords": ["AI", "Machine Learning", "theory", "practical", "research"]
+  },
+  {
+    "id": "Q142",
+    "question": "What activities are included in the AI and ML program besides coursework?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "Students participate in labs, project work, thesis research, seminars, workshops, and industry interactions.",
+    "keywords": ["AI", "labs", "projects", "thesis", "seminars", "industry"]
+  },
+  {
+    "id": "Q143",
+    "question": "Which frontier technology is mentioned as an area of exposure in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "Quantum computing is one of the frontier technology areas mentioned in the program.",
+    "keywords": ["quantum computing", "AI", "frontier technology"]
+  },
+  {
+    "id": "Q144",
+    "question": "Does the AI and ML program include blockchain as a frontier technology?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "Yes, blockchain is listed among the frontier technology areas.",
+    "keywords": ["blockchain", "AI", "frontier technology"]
+  },
+  {
+    "id": "Q145",
+    "question": "What type of laboratory learning is provided in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [11],
+    "reference_answer": "The program provides specialized AI and ML lab-based learning.",
+    "keywords": ["AI lab", "ML lab", "lab-based learning"]
+  },
+  {
+    "id": "Q146",
+    "question": "What interdisciplinary topics are emphasized in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The program emphasizes ethics, policy, business, and societal impact.",
+    "keywords": ["AI", "ethics", "policy", "business", "societal impact"]
+  },
+  {
+    "id": "Q147",
+    "question": "What professional skills are developed in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The program develops technical writing, oral presentation, teamwork, and leadership skills.",
+    "keywords": ["technical writing", "presentation", "teamwork", "leadership"]
+  },
+  {
+    "id": "Q148",
+    "question": "What minimum academic degree is required for admission to the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "Applicants must have completed a four-year bachelor's degree in a relevant discipline.",
+    "keywords": ["AI", "admission", "four-year bachelor's degree"]
+  },
+  {
+    "id": "Q149",
+    "question": "Which mathematical background is required for admission to the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "Applicants should have undergraduate coursework in calculus and statistics or probability.",
+    "keywords": ["AI", "admission", "calculus", "statistics", "probability"]
+  },
+  {
+    "id": "Q150",
+    "question": "What programming background is required for AI and ML admission?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "Applicants need undergraduate coursework in programming.",
+    "keywords": ["AI", "admission", "programming"]
+  },
+  {
+    "id": "Q151",
+    "question": "What minimum CGPA is specified for AI and ML admission?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "A minimum CGPA of 2.5 is required for admission.",
+    "keywords": ["AI", "CGPA", "2.5", "admission"]
+  },
+  {
+    "id": "Q152",
+    "question": "What admission examination must AI and ML applicants pass?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "Applicants must obtain a passing score in the university admission test.",
+    "keywords": ["AI", "admission test", "admission"]
+  },
+  {
+    "id": "Q153",
+    "question": "What is the minimum duration of the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The minimum duration is 1.5 years.",
+    "keywords": ["AI", "duration", "1.5 years"]
+  },
+  {
+    "id": "Q154",
+    "question": "What is the maximum duration of the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [12],
+    "reference_answer": "The maximum duration is 5 years.",
+    "keywords": ["AI", "duration", "5 years"]
+  },
+  {
+    "id": "Q155",
+    "question": "How many credits are assigned to general education in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "The AI and ML program allocates 6 credits to general education courses.",
+    "keywords": ["AI", "general education", "6 credits"]
+  },
+  {
+    "id": "Q156",
+    "question": "How many compulsory-course credits are required in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "The program requires 18 credits of compulsory courses.",
+    "keywords": ["AI", "compulsory courses", "18 credits"]
+  },
+  {
+    "id": "Q157",
+    "question": "How many elective credits are required in the AI and ML Thesis Track?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "The Thesis Track requires 6 elective credits.",
+    "keywords": ["AI", "Thesis Track", "electives", "6 credits"]
+  },
+  {
+    "id": "Q158",
+    "question": "How many elective credits are required in the AI and ML Project Track?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "The Project Track requires 12 elective credits.",
+    "keywords": ["AI", "Project Track", "electives", "12 credits"]
+  },
+  {
+    "id": "Q159",
+    "question": "What course introduces Python programming for AI and ML?",
+    "source": "data.pdf",
+    "pages": [14],
+    "reference_answer": "AIML503 Python Programming for AI and ML introduces Python programming for the program.",
+    "keywords": ["AIML503", "Python", "AI", "Machine Learning"]
+  },
+  {
+    "id": "Q160",
+    "question": "What course covers multivariate calculus and linear algebra in AI and ML?",
+    "source": "data.pdf",
+    "pages": [14],
+    "reference_answer": "AIML504 covers Multivariate Calculus and Linear Algebra.",
+    "keywords": ["AIML504", "calculus", "linear algebra"]
+  },
+  {
+    "id": "Q161",
+    "question": "What course covers statistics for AI and ML?",
+    "source": "data.pdf",
+    "pages": [14],
+    "reference_answer": "AIML505 covers Statistics for AI and Machine Learning.",
+    "keywords": ["AIML505", "statistics", "AI", "Machine Learning"]
+  },
+  {
+    "id": "Q162",
+    "question": "Which AI and ML course focuses on data engineering?",
+    "source": "data.pdf",
+    "pages": [14],
+    "reference_answer": "AIML506 Data Engineering focuses on data engineering.",
+    "keywords": ["AIML506", "Data Engineering"]
+  },
+  {
+    "id": "Q163",
+    "question": "Which course covers Artificial Intelligence in the AI and ML curriculum?",
+    "source": "data.pdf",
+    "pages": [14],
+    "reference_answer": "AIML507 Artificial Intelligence covers Artificial Intelligence.",
+    "keywords": ["AIML507", "Artificial Intelligence"]
+  },
+  {
+    "id": "Q164",
+    "question": "Which course covers Machine Learning in the AI and ML curriculum?",
+    "source": "data.pdf",
+    "pages": [14],
+    "reference_answer": "AIML508 Machine Learning covers Machine Learning.",
+    "keywords": ["AIML508", "Machine Learning"]
+  },
+  {
+    "id": "Q165",
+    "question": "Which AI and ML specialization includes Deep Learning?",
+    "source": "data.pdf",
+    "pages": [15],
+    "reference_answer": "The Advanced Machine Learning specialization includes Deep Learning.",
+    "keywords": ["Advanced Machine Learning", "Deep Learning"]
+  },
+  {
+    "id": "Q166",
+    "question": "Which AI and ML specialization includes Pattern Recognition?",
+    "source": "data.pdf",
+    "pages": [15],
+    "reference_answer": "Pattern Recognition is included in the Advanced Machine Learning specialization.",
+    "keywords": ["Pattern Recognition", "Advanced Machine Learning"]
+  },
+  {
+    "id": "Q167",
+    "question": "Which specialization contains Computer Vision in the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [15],
+    "reference_answer": "Computer Vision is included in the Advanced Machine Learning specialization.",
+    "keywords": ["Computer Vision", "Advanced Machine Learning"]
+  },
+  {
+    "id": "Q168",
+    "question": "Which specialization includes Autonomous Systems?",
+    "source": "data.pdf",
+    "pages": [15],
+    "reference_answer": "Autonomous Systems is included in the Intelligent Systems and Robotics specialization.",
+    "keywords": ["Autonomous Systems", "Robotics", "specialization"]
+  },
+  {
+    "id": "Q169",
+    "question": "Which AI and ML specialization includes Expert Systems?",
+    "source": "data.pdf",
+    "pages": [15],
+    "reference_answer": "Expert Systems is included in the Intelligent Systems and Robotics specialization.",
+    "keywords": ["Expert Systems", "Robotics", "AI"]
+  },
+  {
+    "id": "Q170",
+    "question": "Which specialization contains Cloud Computing?",
+    "source": "data.pdf",
+    "pages": [16],
+    "reference_answer": "Cloud Computing is included in the Data and Knowledge Engineering specialization.",
+    "keywords": ["Cloud Computing", "Data Engineering", "specialization"]
+  },
+  {
+    "id": "Q171",
+    "question": "Which AI and ML specialization includes Business Intelligence?",
+    "source": "data.pdf",
+    "pages": [16],
+    "reference_answer": "Business Intelligence is included in the Data and Knowledge Engineering specialization.",
+    "keywords": ["Business Intelligence", "Data Engineering"]
+  },
+  {
+    "id": "Q172",
+    "question": "Which AI and ML course focuses on Data Mining?",
+    "source": "data.pdf",
+    "pages": [16],
+    "reference_answer": "Data Mining is offered within the Data and Knowledge Engineering specialization.",
+    "keywords": ["Data Mining", "Data Engineering"]
+  },
+  {
+    "id": "Q173",
+    "question": "What is the total tuition fee of the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [19],
+    "reference_answer": "The total tuition fee is Tk. 180,000.",
+    "keywords": ["AI", "Machine Learning", "tuition", "180000 BDT"]
+  },
+  {
+    "id": "Q174",
+    "question": "What is the grand total cost of the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [19],
+    "reference_answer": "The grand total cost of the AI and ML program is Tk. 210,000.",
+    "keywords": ["AI", "Machine Learning", "grand total", "210000 BDT"]
+  },
+  {
+    "id": "Q175",
+    "question": "What is the tuition fee per credit for the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [19],
+    "reference_answer": "The tuition fee is Tk. 4,500 per credit.",
+    "keywords": ["AI", "tuition", "4500 BDT", "per credit"]
+  },
+  {
+    "id": "Q176",
+    "question": "What is the admission fee for the AI and ML program?",
+    "source": "data.pdf",
+    "pages": [19],
+    "reference_answer": "The admission fee is Tk. 20,000.",
+    "keywords": ["AI", "admission fee", "20000 BDT"]
+  },
+  {
+    "id": "Q177",
+    "question": "What is the total credit requirement for the Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [21],
+    "reference_answer": "The M.Sc. in Cyber Security requires 40 credits.",
+    "keywords": ["Cyber Security", "40 credits"]
+  },
+  {
+    "id": "Q178",
+    "question": "How many general education credits are included in the Cyber Security Thesis Track?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "The Cyber Security Thesis Track includes 6 general education credits.",
+    "keywords": ["Cyber Security", "Thesis Track", "general education", "6 credits"]
+  },
+  {
+    "id": "Q179",
+    "question": "How many elective credits are included in the Cyber Security Project Track?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "The Cyber Security Project Track includes 12 elective credits.",
+    "keywords": ["Cyber Security", "Project Track", "electives", "12 credits"]
+  },
+  {
+    "id": "Q180",
+    "question": "Which course provides Python programming skills for Cyber Security?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "CyS503 Python Programming for Cyber Security provides Python programming skills.",
+    "keywords": ["CyS503", "Python", "Cyber Security"]
+  },
+  {
+    "id": "Q181",
+    "question": "Which course covers database management and security?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "CyS505 Database Management and Security covers database management and security.",
+    "keywords": ["CyS505", "database", "security"]
+  },
+  {
+    "id": "Q182",
+    "question": "Which Cyber Security course combines digital forensics and ethical hacking?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "CyS506 Digital Forensic and Ethical Hacking combines both areas.",
+    "keywords": ["CyS506", "digital forensics", "ethical hacking"]
+  },
+  {
+    "id": "Q183",
+    "question": "Which Cyber Security course focuses on blockchain?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "CyS507 Blockchain in Cyber Security focuses on blockchain applications in cybersecurity.",
+    "keywords": ["CyS507", "blockchain", "Cyber Security"]
+  },
+  {
+    "id": "Q184",
+    "question": "Which Cyber Security course applies machine learning?",
+    "source": "data.pdf",
+    "pages": [22],
+    "reference_answer": "CyS508 Machine Learning for Cyber Security applies machine learning to cybersecurity.",
+    "keywords": ["CyS508", "machine learning", "Cyber Security"]
+  },
+  {
+    "id": "Q185",
+    "question": "Which specialization includes Secure Network Architecture?",
+    "source": "data.pdf",
+    "pages": [23],
+    "reference_answer": "Secure Network Architecture is part of the Network and Infrastructure Security specialization.",
+    "keywords": ["CyS514", "Secure Network Architecture", "Network Security"]
+  },
+  {
+    "id": "Q186",
+    "question": "Which course covers Network Security Monitoring?",
+    "source": "data.pdf",
+    "pages": [23],
+    "reference_answer": "CyS521 Network Security Monitoring covers network security monitoring.",
+    "keywords": ["CyS521", "Network Security Monitoring"]
+  },
+  {
+    "id": "Q187",
+    "question": "Which course focuses on network defense and countermeasures?",
+    "source": "data.pdf",
+    "pages": [23],
+    "reference_answer": "CyS523 Network Defense and Countermeasures focuses on network defense.",
+    "keywords": ["CyS523", "network defense", "countermeasures"]
+  },
+  {
+    "id": "Q188",
+    "question": "Which Cyber Security specialization contains Cryptography?",
+    "source": "data.pdf",
+    "pages": [23],
+    "reference_answer": "Cryptography is included in the Cryptography, Blockchain and Distributed Systems Security specialization.",
+    "keywords": ["Cryptography", "Blockchain", "distributed systems", "security"]
+  },
+  {
+    "id": "Q189",
+    "question": "Which course focuses on decentralized finance and blockchain?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "CyS525 Decentralized Finance and Blockchain focuses on decentralized finance and blockchain.",
+    "keywords": ["CyS525", "DeFi", "Blockchain"]
+  },
+  {
+    "id": "Q190",
+    "question": "Which course focuses on advanced smart contracts and DApp development?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "CyS526 Advanced Smart Contracts and DApp Development covers advanced smart contracts and DApps.",
+    "keywords": ["CyS526", "smart contracts", "DApp", "blockchain"]
+  },
+  {
+    "id": "Q191",
+    "question": "Which course focuses on Web Service Security?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "CyS509 Web Service Security focuses on securing web services.",
+    "keywords": ["CyS509", "Web Service Security"]
+  },
+  {
+    "id": "Q192",
+    "question": "Which course covers secure software development and testing?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "CyS516 Secure Software Development and Testing covers secure software development and testing.",
+    "keywords": ["CyS516", "secure software", "testing"]
+  },
+  {
+    "id": "Q193",
+    "question": "Which Cyber Security course focuses on cybersecurity analytics?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "CyS513 Cybersecurity Analytics focuses on cybersecurity analytics.",
+    "keywords": ["CyS513", "Cybersecurity Analytics"]
+  },
+  {
+    "id": "Q194",
+    "question": "Which course covers Cloud Security and Virtualization?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "CyS511 Cloud Security and Virtualization covers cloud security and virtualization.",
+    "keywords": ["CyS511", "Cloud Security", "Virtualization"]
+  },
+  {
+    "id": "Q195",
+    "question": "Which course focuses on Internet of Things Security?",
+    "source": "data.pdf",
+    "pages": [24],
+    "reference_answer": "CyS517 Internet of Things Security focuses on securing IoT systems.",
+    "keywords": ["CyS517", "IoT Security", "Internet of Things"]
+  },
+  {
+    "id": "Q196",
+    "question": "Which course addresses data privacy and laws?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "CyS512 Data Privacy and Laws addresses data privacy and legal issues.",
+    "keywords": ["CyS512", "data privacy", "laws"]
+  },
+  {
+    "id": "Q197",
+    "question": "Which Cyber Security course covers legal and ethical issues?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "CyS520 Legal and Ethical Issues in Cyber Security covers legal and ethical issues.",
+    "keywords": ["CyS520", "legal", "ethics", "Cyber Security"]
+  },
+  {
+    "id": "Q198",
+    "question": "Which course focuses on cybersecurity audit and assessment strategies?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "CyS522 Cybersecurity Audit and Assessment Strategies covers cybersecurity auditing and assessment.",
+    "keywords": ["CyS522", "cybersecurity audit", "assessment"]
+  },
+  {
+    "id": "Q199",
+    "question": "Which course addresses cyber crimes and terrorism?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "CyS519 Cyber Crimes and Terrorism addresses cybercrime and terrorism.",
+    "keywords": ["CyS519", "cyber crimes", "terrorism"]
+  },
+  {
+    "id": "Q200",
+    "question": "Which course focuses on supply chain cybersecurity?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "CyS527 Supply Chain Cyber Security focuses on cybersecurity in supply chains.",
+    "keywords": ["CyS527", "supply chain", "Cyber Security"]
+  },
+  {
+    "id": "Q201",
+    "question": "What is the credit value of the Cyber Security Master Thesis?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "CyS599 Master Thesis carries 10 credits.",
+    "keywords": ["CyS599", "Master Thesis", "10 credits"]
+  },
+  {
+    "id": "Q202",
+    "question": "What is the credit value of the Cyber Security Master Project?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "CyS597 Master Project carries 4 credits.",
+    "keywords": ["CyS597", "Master Project", "4 credits"]
+  },
+  {
+    "id": "Q203",
+    "question": "What is the first Program Educational Objective of the Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [25],
+    "reference_answer": "PEO1 aims for graduates to become leading professionals or entrepreneurs and continue learning to address evolving cybersecurity challenges.",
+    "keywords": ["PEO1", "Cyber Security", "professionals", "entrepreneurs"]
+  },
+  {
+    "id": "Q204",
+    "question": "What does PEO2 emphasize in the Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [26],
+    "reference_answer": "PEO2 emphasizes lifelong learning and interdisciplinary knowledge for industrial, research, academic, leadership, and entrepreneurial careers.",
+    "keywords": ["PEO2", "lifelong learning", "interdisciplinary", "careers"]
+  },
+  {
+    "id": "Q205",
+    "question": "What does PEO3 emphasize in the Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [26],
+    "reference_answer": "PEO3 emphasizes sustainable development and social well-being through ethical and responsible cybersecurity practices.",
+    "keywords": ["PEO3", "ethical", "responsible", "sustainable development"]
+  },
+  {
+    "id": "Q206",
+    "question": "What does PLO1 require Cyber Security graduates to apply?",
+    "source": "data.pdf",
+    "pages": [26],
+    "reference_answer": "PLO1 requires graduates to apply mathematics, statistics, natural sciences, and specialized knowledge to complex problems.",
+    "keywords": ["PLO1", "mathematics", "statistics", "complex problems"]
+  },
+  {
+    "id": "Q207",
+    "question": "What does PLO2 require students to do with complex problems?",
+    "source": "data.pdf",
+    "pages": [26],
+    "reference_answer": "PLO2 requires students to identify, formulate, research, and analyze complex problems and reach substantiated conclusions.",
+    "keywords": ["PLO2", "research", "analysis", "complex problems"]
+  },
+  {
+    "id": "Q208",
+    "question": "What does PLO3 emphasize when designing cybersecurity solutions?",
+    "source": "data.pdf",
+    "pages": [26],
+    "reference_answer": "PLO3 requires consideration of public safety, legal, ethical, cultural, societal, environmental, and sustainability issues.",
+    "keywords": ["PLO3", "public safety", "legal", "ethical", "sustainability"]
+  },
+  {
+    "id": "Q209",
+    "question": "What is the total tuition fee for the M.Sc. in Cyber Security?",
+    "source": "data.pdf",
+    "pages": [27],
+    "reference_answer": "The total tuition fee is Tk. 180,000.",
+    "keywords": ["Cyber Security", "tuition", "180000 BDT"]
+  },
+  {
+    "id": "Q210",
+    "question": "What is the tuition fee per credit for the M.Sc. in Cyber Security?",
+    "source": "data.pdf",
+    "pages": [27],
+    "reference_answer": "The tuition fee is Tk. 4,500 per credit.",
+    "keywords": ["Cyber Security", "4500 BDT", "per credit"]
+  },
+  {
+    "id": "Q211",
+    "question": "What is the admission fee for the M.Sc. in Cyber Security?",
+    "source": "data.pdf",
+    "pages": [27],
+    "reference_answer": "The admission fee is Tk. 20,000.",
+    "keywords": ["Cyber Security", "admission fee", "20000 BDT"]
+  },
+  {
+    "id": "Q212",
+    "question": "Which department handles admission contact for the Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [27],
+    "reference_answer": "Admission contact is handled by the Department of Computer Science and Engineering.",
+    "keywords": ["Cyber Security", "CSE Department", "admission"]
+  },
+  {
+    "id": "Q213",
+    "question": "What is the application deadline listed for the Cyber Security program?",
+    "source": "data.pdf",
+    "pages": [27],
+    "reference_answer": "The listed application deadline is April 30, 2026.",
+    "keywords": ["Cyber Security", "application deadline", "April 30 2026"]
+  },
+  {
+    "id": "Q214",
+    "question": "Which undergraduate program is offered by EWU's EEE department?",
+    "source": "data.pdf",
+    "pages": [78],
+    "reference_answer": "The department offers a B.Sc. in Electrical and Electronic Engineering.",
+    "keywords": ["EEE", "BSc", "Electrical Engineering"]
+  },
+  {
+    "id": "Q215",
+    "question": "Which graduate degree is listed under the EEE department?",
+    "source": "data.pdf",
+    "pages": [78],
+    "reference_answer": "The department lists an MS in Electrical and Electronic Engineering.",
+    "keywords": ["EEE", "MS", "graduate program"]
+  },
+  {
+    "id": "Q216",
+    "question": "Which postgraduate diploma is listed by the EEE department?",
+    "source": "data.pdf",
+    "pages": [78],
+    "reference_answer": "The department lists a Postgraduate Diploma in Electrical and Electronic Engineering.",
+    "keywords": ["EEE", "postgraduate diploma", "Electrical Engineering"]
+  },
+  {
+    "id": "Q217",
+    "question": "What accreditation does the BSc in EEE have?",
+    "source": "data.pdf",
+    "pages": [77],
+    "reference_answer": "The B.Sc. in EEE is accredited by BAETE under IEB.",
+    "keywords": ["EEE", "BAETE", "IEB", "accreditation"]
+  },
+  {
+    "id": "Q218",
+    "question": "Who is the chairperson of the EEE department?",
+    "source": "data.pdf",
+    "pages": [77],
+    "reference_answer": "Khairul Alam, PhD is the Chairperson and Professor of the EEE department.",
+    "keywords": ["EEE", "Khairul Alam", "Chairperson"]
+  },
+  {
+    "id": "Q219",
+    "question": "What topics are covered in EEE101 Electrical Circuits I?",
+    "source": "data.pdf",
+    "pages": [78],
+    "reference_answer": "EEE101 covers circuit variables, Ohm's law, Kirchhoff's laws, circuit theorems, RC/RL responses, simulation, and CAD practice.",
+    "keywords": ["EEE101", "Electrical Circuits", "Ohm's law", "Kirchhoff"]
+  },
+  {
+    "id": "Q220",
+    "question": "What is the credit structure of EEE101?",
+    "source": "data.pdf",
+    "pages": [78],
+    "reference_answer": "EEE101 carries 3 theory credits plus 1 lab credit.",
+    "keywords": ["EEE101", "credits", "lab"]
+  },
+  {
+    "id": "Q221",
+    "question": "What is the prerequisite for EEE102 Electronic Circuits I?",
+    "source": "data.pdf",
+    "pages": [79],
+    "reference_answer": "EEE201 is listed as the prerequisite for EEE102.",
+    "keywords": ["EEE102", "EEE201", "prerequisite"]
+  },
+  {
+    "id": "Q222",
+    "question": "What electronic devices are emphasized in EEE102?",
+    "source": "data.pdf",
+    "pages": [79],
+    "reference_answer": "EEE102 focuses on diodes, BJTs, and MOSFETs along with biasing and amplifier analysis.",
+    "keywords": ["EEE102", "diodes", "BJT", "MOSFET", "amplifier"]
+  },
+  {
+    "id": "Q223",
+    "question": "What programming topics are introduced in EEE105?",
+    "source": "data.pdf",
+    "pages": [83],
+    "reference_answer": "EEE105 introduces programming logic, data types, flowcharts, loops, arrays, functions, and basic object-oriented concepts.",
+    "keywords": ["EEE105", "programming", "loops", "arrays", "functions"]
+  },
+  {
+    "id": "Q224",
+    "question": "What is the purpose of the EEE105 laboratory component?",
+    "source": "data.pdf",
+    "pages": [83],
+    "reference_answer": "The laboratory component emphasizes practical programming skills for engineering.",
+    "keywords": ["EEE105", "laboratory", "programming", "engineering"]
+  },
+  {
+    "id": "Q225",
+    "question": "What does PHRM101 Physical Chemistry with Pharmacy Application cover?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "PHRM101 covers states of matter, pH, buffers, kinetics, and physical chemistry concepts relevant to pharmacy.",
+    "keywords": ["PHRM101", "physical chemistry", "pH", "buffers", "kinetics"]
+  },
+  {
+    "id": "Q226",
+    "question": "What is the purpose of PHRM102 Human Anatomy and Physiology?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "PHRM102 teaches the structure and function of cells and human body systems.",
+    "keywords": ["PHRM102", "anatomy", "physiology", "body systems"]
+  },
+  {
+    "id": "Q227",
+    "question": "What does PHRM103 Organic Chemistry teach students?",
+    "source": "data.pdf",
+    "pages": [48],
+    "reference_answer": "PHRM103 covers organic molecular structures, reaction mechanisms, and naming rules relevant to pharmaceutical compounds.",
+    "keywords": ["PHRM103", "Organic Chemistry", "molecules", "reaction mechanisms"]
+  },
+  {
+    "id": "Q228",
+    "question": "What is the application of PHRM209 Statistics for Pharmaceutical Sciences?",
+    "source": "data.pdf",
+    "pages": [48],
+    "reference_answer": "PHRM209 supports research design and pharmaceutical quality assessment through statistical analysis.",
+    "keywords": ["PHRM209", "statistics", "research", "quality assessment"]
+  },
+  {
+    "id": "Q229",
+    "question": "What does PHRM210 Pharmaceutics I focus on?",
+    "source": "data.pdf",
+    "pages": [48],
+    "reference_answer": "PHRM210 focuses on drug dosage forms, delivery systems, pharmaceutical formulations, and packaging.",
+    "keywords": ["PHRM210", "Pharmaceutics", "dosage forms", "drug delivery"]
+  },
+  {
+    "id": "Q230",
+    "question": "What are the main outcomes of PHRM404 Pharmaceutical Research?",
+    "source": "data.pdf",
+    "pages": [49],
+    "reference_answer": "PHRM404 develops research methodology, literature-searching, and scientific presentation skills for research or graduate study.",
+    "keywords": ["PHRM404", "Pharmaceutical Research", "research methodology", "scientific reporting"]
+  },
+  {
+    "id": "Q231",
+    "question": "What is the total credit requirement of the B.Sc. (Hons.) in Mathematics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The B.Sc. (Hons.) in Mathematics requires 130 credits.",
+    "keywords": ["Mathematics", "BSc", "130 credits"]
+  },
+  {
+    "id": "Q232",
+    "question": "What is the tuition fee per credit for the B.Sc. (Hons.) in Mathematics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The tuition fee is 4,000 BDT per credit.",
+    "keywords": ["Mathematics", "tuition", "4000 BDT"]
+  },
+  {
+    "id": "Q233",
+    "question": "What is the grand total cost of the B.Sc. (Hons.) in Mathematics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The grand total cost is 665,900 BDT.",
+    "keywords": ["Mathematics", "grand total", "665900 BDT"]
+  },
+  {
+    "id": "Q234",
+    "question": "What is the total credit requirement of the B.Sc. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The B.Sc. in Data Science and Analytics requires 130 credits.",
+    "keywords": ["Data Science", "Analytics", "130 credits"]
+  },
+  {
+    "id": "Q235",
+    "question": "What is the tuition fee per credit for the B.Sc. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The tuition fee is 5,500 BDT per credit.",
+    "keywords": ["Data Science", "tuition", "5500 BDT"]
+  },
+  {
+    "id": "Q236",
+    "question": "What is the grand total cost of the B.Sc. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The grand total cost is 847,400 BDT.",
+    "keywords": ["Data Science", "grand total", "847400 BDT"]
+  },
+  {
+    "id": "Q237",
+    "question": "What is the total credit requirement of the M.S. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The M.S. in Data Science and Analytics requires 40 credits.",
+    "keywords": ["MS", "Data Science", "40 credits"]
+  },
+  {
+    "id": "Q238",
+    "question": "What is the tuition fee per credit for the M.S. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The tuition fee is 5,000 BDT per credit.",
+    "keywords": ["MS", "Data Science", "5000 BDT"]
+  },
+  {
+    "id": "Q239",
+    "question": "What is the grand total cost of the M.S. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The grand total cost is 232,000 BDT.",
+    "keywords": ["MS", "Data Science", "232000 BDT"]
+  },
+  {
+    "id": "Q240",
+    "question": "What topics are covered in MATH111 Fundamentals of Mathematics?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "MATH111 covers set theory, logic, proof methods, induction, inequalities, series, equations, matrices, and determinants.",
+    "keywords": ["MATH111", "set theory", "logic", "proof", "matrices"]
+  },
+  {
+    "id": "Q241",
+    "question": "What is the prerequisite for MATH114 Calculus II?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "MATH112 Calculus I is the prerequisite for MATH114.",
+    "keywords": ["MATH114", "Calculus II", "MATH112"]
+  },
+  {
+    "id": "Q242",
+    "question": "What mathematical topics are covered in MATH114 Calculus II?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "MATH114 covers multivariable functions, partial derivatives, multiple integrals, Jacobians, gradient, divergence, and curl.",
+    "keywords": ["MATH114", "multivariable calculus", "partial derivatives", "gradient"]
+  },
+  {
+    "id": "Q243",
+    "question": "What topics are covered in MATH115 Analytic and Vector Geometry?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "MATH115 covers 2D and 3D geometry, vector analysis, curvilinear coordinates, and major vector theorems.",
+    "keywords": ["MATH115", "geometry", "vectors", "Green's theorem"]
+  },
+  {
+    "id": "Q244",
+    "question": "What is the prerequisite for MATH116 Differential Equations I?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "MATH112 Calculus I is the prerequisite for MATH116.",
+    "keywords": ["MATH116", "Differential Equations", "MATH112"]
+  },
+  {
+    "id": "Q245",
+    "question": "What types of differential equations are included in MATH116?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "MATH116 covers first-order equations, second-order equations, series solutions, modeling, eigenvalue problems, and Sturm-Liouville problems.",
+    "keywords": ["MATH116", "ODE", "eigenvalue", "Sturm-Liouville"]
+  },
+  {
+    "id": "Q246",
+    "question": "How many credits does CS116 Programming Language I carry?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "CS116 Programming Language I carries 4 credits.",
+    "keywords": ["CS116", "Programming Language I", "4 credits"]
+  },
+  {
+    "id": "Q247",
+    "question": "Which programming language is introduced in CS116?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "CS116 introduces FORTRAN programming.",
+    "keywords": ["CS116", "FORTRAN", "programming"]
+  },
+  {
+    "id": "Q248",
+    "question": "What additional mathematical software is introduced in CS116?",
+    "source": "data.pdf",
+    "pages": [75],
+    "reference_answer": "CS116 introduces students to Mathematica.",
+    "keywords": ["CS116", "Mathematica", "programming"]
+  },
+  {
+    "id": "Q249",
+    "question": "What is the prerequisite for MATH212 Differential Equations II?",
+    "source": "data.pdf",
+    "pages": [76],
+    "reference_answer": "MATH116 Differential Equations I is the prerequisite for MATH212.",
+    "keywords": ["MATH212", "Differential Equations II", "MATH116"]
+  },
+  {
+    "id": "Q250",
+    "question": "What types of equations are studied in MATH212?",
+    "source": "data.pdf",
+    "pages": [76],
+    "reference_answer": "MATH212 covers first- and second-order PDEs and hyperbolic, parabolic, and elliptic equations.",
+    "keywords": ["MATH212", "PDE", "hyperbolic", "parabolic", "elliptic"]
+  },
+  {
+    "id": "Q251",
+    "question": "What transforms are included in MATH212 Differential Equations II?",
+    "source": "data.pdf",
+    "pages": [76],
+    "reference_answer": "MATH212 includes Fourier and Laplace transforms.",
+    "keywords": ["MATH212", "Fourier transform", "Laplace transform"]
+  },
+  {
+    "id": "Q252",
+    "question": "What is the prerequisite for MATH211 Linear Algebra?",
+    "source": "data.pdf",
+    "pages": [76],
+    "reference_answer": "MATH112 Calculus I is the prerequisite for MATH211.",
+    "keywords": ["MATH211", "Linear Algebra", "MATH112"]
+  },
+  {
+    "id": "Q253",
+    "question": "What decomposition methods are included in MATH211 Linear Algebra?",
+    "source": "data.pdf",
+    "pages": [76],
+    "reference_answer": "MATH211 includes Gaussian elimination, LU decomposition, Gram-Schmidt, and QR decomposition.",
+    "keywords": ["MATH211", "Gaussian elimination", "LU", "QR"]
+  },
+  {
+    "id": "Q254",
+    "question": "What department offers the B.Sc. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The program is listed under the Mathematics and Physical Sciences department information.",
+    "keywords": ["Data Science", "Analytics", "Mathematics"]
+  },
+  {
+    "id": "Q255",
+    "question": "What is the total tuition fee for the B.Sc. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The total tuition fee is 748,000 BDT.",
+    "keywords": ["Data Science", "tuition", "748000 BDT"]
+  },
+  {
+    "id": "Q256",
+    "question": "What lab and activity fee is listed for the B.Sc. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The lab and activity fee is 74,400 BDT.",
+    "keywords": ["Data Science", "lab fee", "74400 BDT"]
+  },
+  {
+    "id": "Q257",
+    "question": "What admission fee is listed for the B.Sc. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The admission fee is 25,000 BDT.",
+    "keywords": ["Data Science", "admission fee", "25000 BDT"]
+  },
+  {
+    "id": "Q258",
+    "question": "What is the total tuition fee of the M.S. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The total tuition fee is 200,000 BDT.",
+    "keywords": ["MS Data Science", "tuition", "200000 BDT"]
+  },
+  {
+    "id": "Q259",
+    "question": "What lab and activity fee is charged for the M.S. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The lab and activity fee is 12,000 BDT.",
+    "keywords": ["MS Data Science", "lab fee", "12000 BDT"]
+  },
+  {
+    "id": "Q260",
+    "question": "What is the admission fee for the M.S. in Data Science and Analytics?",
+    "source": "data.pdf",
+    "pages": [74],
+    "reference_answer": "The admission fee is 20,000 BDT.",
+    "keywords": ["MS Data Science", "admission fee", "20000 BDT"]
+  },
+  {
+    "id": "Q261",
+    "question": "What is the total credit requirement of the BBA program?",
+    "source": "data.pdf",
+    "pages": [30],
+    "reference_answer": "The BBA program requires 123 credits.",
+    "keywords": ["BBA", "123 credits", "Business Administration"]
+  },
+  {
+    "id": "Q262",
+    "question": "How many credits are allocated to General Education in the BBA program?",
+    "source": "data.pdf",
+    "pages": [30],
+    "reference_answer": "The BBA program allocates 33 credits to General Education.",
+    "keywords": ["BBA", "General Education", "33 credits"]
+  },
+  {
+    "id": "Q263",
+    "question": "How many credits are required for BBA core business courses?",
+    "source": "data.pdf",
+    "pages": [31],
+    "reference_answer": "The BBA core business courses require 60 credits.",
+    "keywords": ["BBA", "core business", "60 credits"]
+  },
+  {
+    "id": "Q264",
+    "question": "How many credits does each BBA major contain?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "Each BBA major contains 18 credits.",
+    "keywords": ["BBA", "major", "18 credits"]
+  },
+  {
+    "id": "Q265",
+    "question": "How many courses are included in a BBA major?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "Each major consists of six courses worth 3 credits each.",
+    "keywords": ["BBA", "major", "six courses"]
+  },
+  {
+    "id": "Q266",
+    "question": "How many open elective credits are required in the BBA program?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "The BBA program requires 9 open elective credits.",
+    "keywords": ["BBA", "open electives", "9 credits"]
+  },
+  {
+    "id": "Q267",
+    "question": "How many credits does the BBA internship or project carry?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "The BBA internship or project carries 3 credits.",
+    "keywords": ["BBA", "internship", "project", "3 credits"]
+  },
+  {
+    "id": "Q268",
+    "question": "What course introduces students to financial accounting in the BBA program?",
+    "source": "data.pdf",
+    "pages": [31],
+    "reference_answer": "ACT101 Financial Accounting introduces financial accounting.",
+    "keywords": ["ACT101", "Financial Accounting", "BBA"]
+  },
+  {
+    "id": "Q269",
+    "question": "Which BBA course focuses on managerial accounting?",
+    "source": "data.pdf",
+    "pages": [31],
+    "reference_answer": "ACT201 Managerial Accounting focuses on managerial accounting.",
+    "keywords": ["ACT201", "Managerial Accounting", "BBA"]
+  },
+  {
+    "id": "Q270",
+    "question": "Which BBA course covers financial management?",
+    "source": "data.pdf",
+    "pages": [31],
+    "reference_answer": "FIN201 Financial Management covers financial management.",
+    "keywords": ["FIN201", "Financial Management", "BBA"]
+  },
+  {
+    "id": "Q271",
+    "question": "Which BBA course covers consumer behavior?",
+    "source": "data.pdf",
+    "pages": [31],
+    "reference_answer": "MKT301 Consumer Behavior covers consumer behavior.",
+    "keywords": ["MKT301", "Consumer Behavior", "BBA"]
+  },
+  {
+    "id": "Q272",
+    "question": "Which BBA course covers organizational behavior?",
+    "source": "data.pdf",
+    "pages": [31],
+    "reference_answer": "MGT301 Organizational Behavior covers organizational behavior.",
+    "keywords": ["MGT301", "Organizational Behavior", "BBA"]
+  },
+  {
+    "id": "Q273",
+    "question": "Which BBA course focuses on business research methods?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "BUS499 Business Research Methods focuses on business research methods.",
+    "keywords": ["BUS499", "research methods", "BBA"]
+  },
+  {
+    "id": "Q274",
+    "question": "Which BBA course focuses on corporate governance?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "BUS496 Corporate Governance focuses on corporate governance.",
+    "keywords": ["BUS496", "Corporate Governance", "BBA"]
+  },
+  {
+    "id": "Q275",
+    "question": "Which BBA course focuses on entrepreneurship?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "BUS497 Entrepreneurship focuses on entrepreneurship.",
+    "keywords": ["BUS497", "Entrepreneurship", "BBA"]
+  },
+  {
+    "id": "Q276",
+    "question": "Which BBA course covers business ethics?",
+    "source": "data.pdf",
+    "pages": [32],
+    "reference_answer": "BUS498 Business Ethics covers business ethics.",
+    "keywords": ["BUS498", "Business Ethics", "BBA"]
+  },
+  {
+    "id": "Q277",
+    "question": "How many full-time faculty members are reported in the English Department?",
+    "source": "data.pdf",
+    "pages": [43],
+    "reference_answer": "The English Department is reported to have 41 full-time faculty members.",
+    "keywords": ["English Department", "41 faculty", "EWU"]
+  },
+  {
+    "id": "Q278",
+    "question": "When was the English Department established?",
+    "source": "data.pdf",
+    "pages": [43],
+    "reference_answer": "The English Department started in August 1996.",
+    "keywords": ["English Department", "1996", "EWU"]
+  },
+  {
+    "id": "Q279",
+    "question": "What facilities are available to English Department students?",
+    "source": "data.pdf",
+    "pages": [43],
+    "reference_answer": "Students have access to a multimedia language lab, seminar and reading room, and an online library.",
+    "keywords": ["English", "language lab", "reading room", "library"]
+  },
+  {
+    "id": "Q280",
+    "question": "What does ENG099 Remedial English focus on?",
+    "source": "data.pdf",
+    "pages": [43],
+    "reference_answer": "ENG099 focuses on grammar, writing correction, reading, and fluency improvement.",
+    "keywords": ["ENG099", "Remedial English", "grammar", "fluency"]
+  },
+  {
+    "id": "Q281",
+    "question": "What skills are emphasized in ENG100 Improving Oral Communication Skills?",
+    "source": "data.pdf",
+    "pages": [43],
+    "reference_answer": "ENG100 emphasizes speaking, listening, presentations, debates, and interviews.",
+    "keywords": ["ENG100", "oral communication", "speaking", "listening"]
+  },
+  {
+    "id": "Q282",
+    "question": "What language skills are covered in ENG101 Basic English?",
+    "source": "data.pdf",
+    "pages": [43],
+    "reference_answer": "ENG101 integrates reading, writing, speaking, and listening skills.",
+    "keywords": ["ENG101", "Basic English", "reading", "writing", "speaking"]
+  },
+  {
+    "id": "Q283",
+    "question": "What are the two main graduate degrees offered by the English Department?",
+    "source": "data.pdf",
+    "pages": [44],
+    "reference_answer": "The department offers an MA in TESOL and an MA in English.",
+    "keywords": ["English", "MA TESOL", "MA English"]
+  },
+  {
+    "id": "Q284",
+    "question": "What does TESOL stand for in the English graduate program?",
+    "source": "data.pdf",
+    "pages": [44],
+    "reference_answer": "TESOL stands for Teaching English to Speakers of Other Languages.",
+    "keywords": ["TESOL", "Teaching English", "English Department"]
+  },
+  {
+    "id": "Q285",
+    "question": "What areas can the MA in English focus on?",
+    "source": "data.pdf",
+    "pages": [44],
+    "reference_answer": "The MA in English can focus on literature, linguistics, or related research.",
+    "keywords": ["MA English", "literature", "linguistics", "research"]
+  },
+  {
+    "id": "Q286",
+    "question": "What does the MA in TESOL help students understand?",
+    "source": "data.pdf",
+    "pages": [44],
+    "reference_answer": "It develops understanding of language learning, teaching methods, materials design, testing, and four-skills instruction.",
+    "keywords": ["MA TESOL", "language learning", "teaching methods", "testing"]
+  },
+  {
+    "id": "Q287",
+    "question": "What was Dr. Fakrul Alam's position in the English Department?",
+    "source": "data.pdf",
+    "pages": [44],
+    "reference_answer": "Dr. Fakrul Alam is listed as Professor and Adviser.",
+    "keywords": ["Fakrul Alam", "Professor", "Adviser"]
+  },
+  {
+    "id": "Q288",
+    "question": "Who is listed as Dean and Professor in the English Department?",
+    "source": "data.pdf",
+    "pages": [44],
+    "reference_answer": "Dr. Farzana Akhter is listed as Dean and Professor.",
+    "keywords": ["Farzana Akhter", "Dean", "Professor"]
+  },
+  {
+    "id": "Q289",
+    "question": "What career area related to teaching can English graduates pursue?",
+    "source": "data.pdf",
+    "pages": [45],
+    "reference_answer": "English graduates can pursue teaching careers in English and TESOL.",
+    "keywords": ["English graduates", "teaching", "TESOL"]
+  },
+  {
+    "id": "Q290",
+    "question": "What media-related career pathway is listed for English graduates?",
+    "source": "data.pdf",
+    "pages": [45],
+    "reference_answer": "Communication, media, and editing are listed as career pathways.",
+    "keywords": ["English", "media", "editing", "career"]
+  },
+  {
+    "id": "Q291",
+    "question": "When was the EWU Pharmacy Department established?",
+    "source": "data.pdf",
+    "pages": [46],
+    "reference_answer": "The Pharmacy Department was established in 2003.",
+    "keywords": ["Pharmacy", "2003", "EWU"]
+  },
+  {
+    "id": "Q292",
+    "question": "What is the purpose of establishing the Pharmacy Department?",
+    "source": "data.pdf",
+    "pages": [46],
+    "reference_answer": "It was established to meet the growing demand for skilled pharmacy graduates in academia, industry, hospitals, and health-related sectors.",
+    "keywords": ["Pharmacy", "skilled graduates", "industry", "hospitals"]
+  },
+  {
+    "id": "Q293",
+    "question": "Who is the chairperson of the EWU Pharmacy Department?",
+    "source": "data.pdf",
+    "pages": [46],
+    "reference_answer": "Dr. Md. Amirul Islam is the Chairperson and Professor.",
+    "keywords": ["Pharmacy", "Md. Amirul Islam", "Chairperson"]
+  },
+  {
+    "id": "Q294",
+    "question": "What is the total credit requirement of the B. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "The B. Pharm. program requires 158 credits.",
+    "keywords": ["B Pharm", "158 credits", "Pharmacy"]
+  },
+  {
+    "id": "Q295",
+    "question": "What is the tuition fee per credit for the B. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "The tuition fee is 7,000 BDT per credit.",
+    "keywords": ["B Pharm", "7000 BDT", "tuition"]
+  },
+  {
+    "id": "Q296",
+    "question": "What is the grand total cost of the B. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "The approximate grand total cost is 1,192,000 BDT.",
+    "keywords": ["B Pharm", "grand total", "1192000 BDT"]
+  },
+  {
+    "id": "Q297",
+    "question": "What is the total credit requirement of the M. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "The M. Pharm. program requires 40 credits.",
+    "keywords": ["M Pharm", "40 credits", "Pharmacy"]
+  },
+  {
+    "id": "Q298",
+    "question": "What is the tuition fee per credit for the M. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "The tuition fee is 5,000 BDT per credit.",
+    "keywords": ["M Pharm", "5000 BDT", "tuition"]
+  },
+  {
+    "id": "Q299",
+    "question": "What is the grand total cost of the M. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [47],
+    "reference_answer": "The approximate grand total cost is 230,545 BDT.",
+    "keywords": ["M Pharm", "grand total", "230545 BDT"]
+  },
+  {
+    "id": "Q300",
+    "question": "What does PHRM205 Inorganic Pharmaceutical Chemistry focus on?",
+    "source": "data.pdf",
+    "pages": [48],
+    "reference_answer": "PHRM205 focuses on inorganic compounds used in physiology and drugs and their biological relevance.",
+    "keywords": ["PHRM205", "Inorganic Chemistry", "physiology", "drugs"]
+  },
+  {
+    "id": "Q301",
+    "question": "What is the main purpose of PHRM209 Statistics for Pharmaceutical Sciences?",
+    "source": "data.pdf",
+    "pages": [49],
+    "reference_answer": "PHRM209 develops statistical skills for research, decision-making, data analysis, and pharmaceutical quality assessment.",
+    "keywords": ["PHRM209", "statistics", "research", "quality assessment"]
+  },
+  {
+    "id": "Q302",
+    "question": "What does PHRM301 Pharmacology I teach?",
+    "source": "data.pdf",
+    "pages": [49],
+    "reference_answer": "PHRM301 teaches how drugs work in the human body, including pharmacokinetics and pharmacodynamics.",
+    "keywords": ["PHRM301", "Pharmacology", "pharmacokinetics", "pharmacodynamics"]
+  },
+  {
+    "id": "Q303",
+    "question": "What skills does PHRM404 Pharmaceutical Research develop?",
+    "source": "data.pdf",
+    "pages": [50],
+    "reference_answer": "PHRM404 develops research methodology, literature searching, and scientific presentation skills.",
+    "keywords": ["PHRM404", "research methodology", "literature", "scientific presentation"]
+  },
+  {
+    "id": "Q304",
+    "question": "What does PHRM410 Pharmacy Law and Ethics cover?",
+    "source": "data.pdf",
+    "pages": [50],
+    "reference_answer": "PHRM410 covers the legal and ethical framework of pharmacy practice and regulatory bodies in Bangladesh.",
+    "keywords": ["PHRM410", "Pharmacy Law", "ethics", "Bangladesh"]
+  },
+  {
+    "id": "Q305",
+    "question": "What is the purpose of PHRM411 Cosmetology?",
+    "source": "data.pdf",
+    "pages": [50],
+    "reference_answer": "PHRM411 teaches cosmetic formulation science, including ingredients and formulation techniques.",
+    "keywords": ["PHRM411", "Cosmetology", "cosmetic formulation"]
+  },
+  {
+    "id": "Q306",
+    "question": "What is the duration of the B. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [50],
+    "reference_answer": "The B. Pharm. program lasts four years across eight semesters.",
+    "keywords": ["B Pharm", "4 years", "8 semesters"]
+  },
+  {
+    "id": "Q307",
+    "question": "What type of industrial training is included in the B. Pharm. program?",
+    "source": "data.pdf",
+    "pages": [50],
+    "reference_answer": "The program includes in-plant training in pharmaceutical companies as a non-credit requirement.",
+    "keywords": ["B Pharm", "industrial training", "in-plant training"]
+  },
+  {
+    "id": "Q308",
+    "question": "What research areas are represented in Pharmacy Department publications?",
+    "source": "data.pdf",
+    "pages": [50],
+    "reference_answer": "Publications cover pharmaceutical sciences, drug discovery, pharmacology, microbiology, public health, and clinical trials.",
+    "keywords": ["Pharmacy", "research", "drug discovery", "pharmacology", "clinical trials"]
+  },
+  {
+    "id": "Q309",
+    "question": "What is the total credit requirement of the B.Sc. in EEE?",
+    "source": "data.pdf",
+    "pages": [79],
+    "reference_answer": "The B.Sc. in EEE requires 140 credits.",
+    "keywords": ["EEE", "BSc", "140 credits"]
+  },
+  {
+    "id": "Q310",
+    "question": "What is the tuition fee per credit for the B.Sc. in EEE?",
+    "source": "data.pdf",
+    "pages": [79],
+    "reference_answer": "The tuition fee is 6,500 BDT per credit.",
+    "keywords": ["EEE", "tuition", "6500 BDT"]
+  }
 ]

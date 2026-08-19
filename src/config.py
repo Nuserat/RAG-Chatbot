@@ -44,8 +44,6 @@ TOP_K = 3
 # ============================================================
 # BASELINE
 # ============================================================
-
-# Your existing chatbot configuration
 BASELINE_CHUNK_SIZE = 500
 BASELINE_CHUNK_OVERLAP = 50
 
@@ -163,7 +161,7 @@ K_VALUES = [1, 3, 5]
 
 EVALUATION_QUESTION_LIMIT = 5
 
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 # ============================================================
 # EMBEDDING MODEL
@@ -175,7 +173,7 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 # LLM
 # ============================================================
 
-LLM_MODEL = "llama-3.3-70b-versatile"
+LLM_MODEL = "openai/gpt-oss-120b"
 # Backward-compatible alias
 GROQ_MODEL = LLM_MODEL
 LLM_TEMPERATURE = 0.3

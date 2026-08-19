@@ -27,7 +27,7 @@ class AcademicAssistant:
         self,
         groq_api_key: str,
         db_path: str,
-        model: str = "llama-3.3-70b-versatile",
+        model: str = "openai/gpt-oss-120b",
     ):
 
         if not groq_api_key:
@@ -140,7 +140,7 @@ Answer ONLY from the context.
             api_key=self.groq_api_key,
             model=self.model,
             temperature=0,
-            max_tokens=500,
+            max_tokens=250,
         )
 
     # ========================================================
